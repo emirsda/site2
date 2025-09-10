@@ -1,0 +1,798 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_ezUjx3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NDHwbc": {
+          "type": "heading",
+          "settings": {
+            "text": "Protégez leur sourire, sans stress.",
+            "heading_tag": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NDHwbc"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/231e4052-c10f-4a6b-b33d-b0636033e628.png",
+        "mobile_image": "shopify://shop_images/231e4052-c10f-4a6b-b33d-b0636033e628.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#f0f0f0",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "logo_list_aLUhq4": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_a49aWp": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/parents.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_bGUgJr": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/france_3.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_TBEEDd": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/cosmopolitan.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_HRPg6a": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/elle_6ef3162a-7dec-41be-ae8c-ff15c6293808.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_a49aWp",
+        "logo_bGUgJr",
+        "logo_TBEEDd",
+        "logo_HRPg6a"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur:",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "custom_liquid_gLtWJM": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Avant : 10 minutes de négociation tous les soirs… Après : 60 secondes de tranquillité et un sourire éclatant. ' }}</strong>\n  </h1>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "before_after_image_MbaaWq": {
+      "type": "before-after-image",
+      "custom_css": [
+        "@media screen and (min-width: 700px) {.before-after {max-width: 50% !important; /* Réduit la largeur de moitié */ margin: 0 auto !important; /* Centre le conteneur */ } .before-after__before-image, .before-after__after-image {max-width: 100% !important; /* Assure que les images s'adaptent */ }}"
+      ],
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "before_image": "shopify://shop_images/04050ccb-292e-4410-892f-51bb1e490072.png",
+        "before_image_mobile": "shopify://shop_images/04050ccb-292e-4410-892f-51bb1e490072.png",
+        "after_image": "shopify://shop_images/959fc3f0-4d1c-4729-8cad-c60381a2ffa8.png",
+        "after_image_mobile": "shopify://shop_images/959fc3f0-4d1c-4729-8cad-c60381a2ffa8.png",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 81,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "multi_column_HcAbgD": {
+      "type": "multi-column",
+      "blocks": {
+        "item_3aHNRK": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/avis video 2.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h5",
+            "content": "<p><strong>Layna D.</strong></p><p><br/>Depuis que ma fille utilise cette brosse à dents, se brosser les dents est un vrai plaisir. Étanche et pratique, elle l’utilise même dans le bain, ce qui rend sa routine plus simple et amusante.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_gfX6kg": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/snaptik_7505417136601320734_v2.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Rosana S.  </strong></p><p>Dès la première utilisation, j’ai été conquise ! Ce produit tient ses promesses et rend ma routine plus simple et agréable. Je ne pourrais plus m’en passer.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KUbdhB": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/avis video.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Julianna M.</strong></p><p><br/>Un achat que je ne regrette pas une seconde ! Efficace, agréable à utiliser et indispensable au quotidien.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LY8UGy": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/avis video 3.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Ethan T.</strong></p><p>Ce produit a dépassé mes attentes dès le premier essai. Il rend ma routine rapide et agréable.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_HhUrrR": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/avis video 4.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Titouan R. </strong></p><p>Je suis bluffée par la qualité et l’efficacité. Aujourd’hui, me réclame de se brosser les dents.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_3aHNRK",
+        "item_gfX6kg",
+        "item_KUbdhB",
+        "item_LY8UGy",
+        "item_HhUrrR"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_Dd8zDM": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_product_nyKfgC": {
+      "type": "featured-product",
+      "blocks": {
+        "liquid_DYq47Q": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"tp-rating\" aria-label=\"Note moyenne : 4.7 sur 5 étoiles\">\n  <img \n    src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg\" \n    alt=\"Note 4.7 sur 5 étoiles\" \n    class=\"tp-stars-img\"\n  />\n  <span class=\"rating-text\"><strong>\n    4.8 - <span>79</span> </strong> avis </span>\n</div>\n<style>\n.tp-rating {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n} \n.tp-stars-img {\n  height: 18px;\n  width: auto;\n  display: inline-block;\n}\n\n.rating-text {\n  font-size: 0.75rem;\n  color: #666;\n}\n\n</style>"
+          }
+        },
+        "title_Bk33Rj": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_FHNKcF": {
+          "type": "badges",
+          "settings": {}
+        },
+        "image_if6FUa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9a7a5651-32d7-4471-b138-2862e5e5b9f1.png",
+            "alignment": "center",
+            "max_width": 350
+          }
+        },
+        "liquid_gtLqqU": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<style>\n.stock-alert {\n  background-color: red;\n  color: white;\n  font-weight: bold;\n  padding: 10px 20px;\n  border-radius: 6px;\n  text-align: center;\n  font-size: 16px;\n  animation: blink 1s infinite;\n  width: fit-content;\n  margin: 10px 0;\n}\n\n@keyframes blink {\n  0% { opacity: 1; }\n  50% { opacity: 0.3; }\n  100% { opacity: 1; }\n}\n</style>\n\n<div class=\"stock-alert\">\n  🚨 En stock : 5 restants 🚨\n</div>"
+          }
+        },
+        "liquid_HiDGih": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n/* --- TEXTE URGENCE (flash rouge ↔ jaune + fond pulsant) --- */\n.stock-text {\n  color: #d70000;\n  font-weight: bold;\n  font-size: 18px;\n  text-align: center;\n  margin: 12px auto;\n  padding: 6px 12px;\n  border-radius: 6px;\n  animation: flash 1.2s infinite, bgpulse 2s infinite;\n  display: inline-block;\n}\n\n/* --- SOCIAL PROOF (même effet, plus lent/décalé) --- */\n.social-proof {\n  text-align: center;\n  font-size: 16px;\n  margin-top: 8px;\n  font-weight: bold;\n  padding: 4px 10px;\n  border-radius: 6px;\n  animation: flash 1.6s infinite alternate, bgpulse 2.5s infinite alternate;\n  display: inline-block;\n}\n\n/* --- ANIMATION TEXTE --- */\n@keyframes flash {\n  0%   { color: #d70000; }  /* rouge vif */\n  50%  { color: #ffcc00; }  /* jaune vif */\n  100% { color: #d70000; }  /* retour rouge */\n}\n\n/* --- ANIMATION FOND (pulsation douce) --- */\n@keyframes bgpulse {\n  0%   { background-color: rgba(255, 230, 150, 0.3); }\n  50%  { background-color: rgba(255, 230, 150, 0.8); }\n  100% { background-color: rgba(255, 230, 150, 0.3); }\n}\n\n/* --- RESPONSIVE MOBILE --- */\n@media (max-width: 600px) {\n  .stock-text { font-size: 16px; padding: 5px 10px; }\n  .social-proof { font-size: 14px; padding: 4px 8px; }\n}\n</style>\n\n<!-- --- BLOC URGENCE --- -->\n<div style=\"text-align:center;\">\n  <div class=\"stock-text\">\n    🚨 En stock : <span id=\"stock-count\">5</span> restants\n  </div>\n</div>\n\n<!-- --- SOCIAL PROOF --- -->\n<div style=\"text-align:center;\">\n  <div class=\"social-proof\" id=\"social-proof\">\n    👀 12 clients regardent ce produit en ce moment\n  </div>\n</div>\n\n<script>\n// === PARAMÈTRES ===\nconst INITIAL_STOCK = 5;   // stock de départ\nconst MIN_STOCK     = 2;   // ne pas descendre sous 2\n\n(function(){\n  const stockEl = document.getElementById(\"stock-count\");\n  let stock = INITIAL_STOCK;\n\n  // Baisse du stock toutes 2 à 5 minutes\n  function decreaseStock(){\n    if(stock > MIN_STOCK){\n      stock--;\n      stockEl.textContent = stock;\n    }\n    const delay = Math.floor(Math.random() * (300000 - 120000 + 1)) + 120000; // 2–5 min\n    setTimeout(decreaseStock, delay);\n  }\n  setTimeout(decreaseStock, 180000); // première baisse après 3 min\n})();\n\n// === SOCIAL PROOF dynamique (2 à 3 minutes) ===\n(function(){\n  const el = document.getElementById(\"social-proof\");\n  if(!el) return;\n  function updateViewers(){\n    const viewers = Math.floor(Math.random() * (25 - 7 + 1)) + 7; // 7–25\n    el.textContent = `👀 ${viewers} clients regardent ce produit en ce moment`;\n    const delay = Math.floor(Math.random() * (180000 - 120000 + 1)) + 120000; // 2–3 min\n    setTimeout(updateViewers, delay);\n  }\n  updateViewers();\n})();\n</script>"
+          }
+        },
+        "separator_E9aHMT": {
+          "type": "separator",
+          "settings": {}
+        },
+        "kaching_bundles_app_block_JrjyT6": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
+        "description_mgi8xL": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "quantity_selector_kGXk3x": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_Q6DaDT": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#f0c417",
+            "atc_button_text_color": "#181616",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_hfnTka": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "image_tbBc7f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bagde_confiance.png",
+            "alignment": "start",
+            "max_width": 450
+          }
+        }
+      },
+      "block_order": [
+        "liquid_DYq47Q",
+        "title_Bk33Rj",
+        "badges_FHNKcF",
+        "image_if6FUa",
+        "liquid_gtLqqU",
+        "liquid_HiDGih",
+        "separator_E9aHMT",
+        "kaching_bundles_app_block_JrjyT6",
+        "description_mgi8xL",
+        "quantity_selector_kGXk3x",
+        "buy_buttons_Q6DaDT",
+        "pickup_availability_hfnTka",
+        "image_tbBc7f"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "zeloa-brosse-361",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "1754715508d43cdc4d": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "tabs_cYdcCh": {
+      "type": "tabs",
+      "blocks": {
+        "tab_4YaP8w": {
+          "type": "tab",
+          "settings": {
+            "title": "Les avantages pour vous et votre enfant",
+            "content": "<ul><li><strong>Adieu les crises</strong> – Le brossage devient un moment amusant et serein.</li><li><strong>Bouclier anti-caries</strong> – Élimine jusqu’à 4 fois plus de plaque qu’une brosse à dents classique.</li><li><strong>Propreté éclatante en un rien de temps</strong> – Des dents propres en seulement quelques secondes.</li><li><strong>Apprentissage amusant</strong> – Favorise de bonnes habitudes dès le plus jeune âge.</li><li><strong>Parents rassurés</strong> – Une routine efficace, simple et sans stress au quotidien.</li></ul>",
+            "page": ""
+          }
+        },
+        "tab_fY44e9": {
+          "type": "tab",
+          "settings": {
+            "title": "Caractéristiques",
+            "content": "<ul><li><strong>Type</strong> : Brosse à dents électrique en forme de U, spécialement conçue pour les enfants</li><li><strong>Matériau</strong> : Polypropylène de qualité alimentaire (même matériau sûr que les sucettes), 100% sans BPA.</li><li><strong>Sécurité : </strong>Sans BPA, sans phtalates, conforme aux normes CE.</li><li><strong>Couleurs disponibles</strong> : Rose, bleu, vert</li><li><strong>Puissance</strong> : 5W</li><li><strong>Tension</strong> : 3,2 – 3,7 V</li><li><strong>Recharge</strong> : 60 minutes pour une autonomie intelligente de 15 jours</li><li><strong>Étanchéité</strong> : Certifiée IPX7, résiste à l’immersion et facile à nettoyer.</li></ul>",
+            "page": ""
+          }
+        },
+        "tab_MGwBdL": {
+          "type": "tab",
+          "settings": {
+            "title": "Livraison gratuite à domicile",
+            "content": "<p>La livraison gratuite à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est estimé entre 5 et 14 jours ouvrés.</p>",
+            "page": ""
+          }
+        },
+        "tab_hieypA": {
+          "type": "tab",
+          "settings": {
+            "title": "Essayez-la 30 jours gratuitement",
+            "content": "<p>Essayez la Zeloa brosse 360° sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfait de votre Zeloa brosse 360°, vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral.</strong></p>",
+            "page": ""
+          }
+        },
+        "tab_CjVF47": {
+          "type": "tab",
+          "settings": {
+            "title": "Service Client 7J/7",
+            "content": "<p>Notre service client est à votre écoute 7J/7. Du Lun au Ven de 9h à 12h et de 14h à 18h / Sam et Dim de 10h à 12h<br/></p><p>Vous pouvez nous contacter par en utilisant l'onglet \"Contact\" de notre boutique ou par email à l'adresse contact@zeloa.fr</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_4YaP8w",
+        "tab_fY44e9",
+        "tab_MGwBdL",
+        "tab_hieypA",
+        "tab_CjVF47"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "large",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "custom_liquid_AtwcUd": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Pourquoi choisir Zeloa brosse 360°\n ?' }}</strong>\n  </h1>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_7LfXbx": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_qyMghy": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_3yCCTh": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nzt7FN": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qyMghy",
+        "heading_3yCCTh",
+        "richtext_nzt7FN"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/benef_nouveau.png",
+        "mobile_image": "shopify://shop_images/benef_nouveau.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_UUfEHN": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/med.png",
+        "mobile_image": "shopify://shop_images/med.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "images_with_text_scrolling_e8A4jk": {
+      "type": "images-with-text-scrolling",
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "custom_liquid_gqJ8wK": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Des dents propres en 3 gestes simples' }}</strong>\n  </h1>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multiple_images_with_text_iqjDYF": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_NzPWpw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/etape.jpg",
+            "image_rotation_degrees": 15,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_NzPWpw"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "top",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "item_4wy4yn": {
+          "type": "item",
+          "settings": {
+            "title": "Quels sont les delais de livraison ?",
+            "content": "<p>Suite au grand succès de notre produit les délais de livraison sont les suivant:</p><ul><li>Délai de traitement : 1 à 3 jours ouvrés</li></ul><p></p><ul><li>Délai de livraison : 5 à 14 jours ouvrés</li></ul>"
+          }
+        },
+        "item_CJtnFP": {
+          "type": "item",
+          "settings": {
+            "title": "De quel matériau est fabriquée la tête de la brosse à dents et est-elle sans danger pour mon enfant ?",
+            "content": "<p>Tête en matière alimentaire certifiée – Réalisée en silicone de qualité alimentaire, le même matériau doux et sûr que celui des tétines de sucettes utilisées par les bébés . Conforme aux normes européennes (CE) et aux réglementations de sécurité alimentaire, 100% sans BPA, phtalates ni substances nocives. Testée en laboratoire pour garantir douceur, confort et sécurité pour les dents et gencives sensibles des enfants.</p>"
+          }
+        },
+        "item_Yqbig9": {
+          "type": "item",
+          "settings": {
+            "title": "Pour quel âge la Zeloa est-elle adapté ?",
+            "content": "<p><strong>Zeloa brosse 360°– Conçu pour tous les âges</strong><br/>Parce que chaque enfant est unique, nous avons créé deux versions adaptées à leur âge et à leur sourire :</p><ul><li><strong>2 à 6 ans</strong> : Brosse toute douce avec puissance ultrasonique réduite et petit embout – parfaite pour les gencives sensibles des tout-petits.</li><li><strong>6 à 12 ans</strong> : Nettoyage plus puissant et embout en forme de U plus grand – idéal pour les besoins des enfants plus âgés.</li></ul><p>Un brossage sur mesure pour des dents propres et un sourire éclatant, à chaque étape de la croissance.</p>"
+          }
+        },
+        "166442457738b23caf-0": {
+          "type": "item",
+          "settings": {
+            "title": "La Zeloa nettoie-t-elle aussi efficacement qu’une brosse à dents ordinaire ?",
+            "content": "<p><strong>Oui – et même mieux qu’une brosse classique !</strong>Grâce à ses poils en silicone à 360° et ses vibrations ultrasoniques douces, <strong>Zeloa brosse 360° </strong>nettoie toutes les dents en même temps, en seulement 60 secondes.<br/>Plus rapide, plus complet et sans zones oubliées – il aide à prévenir efficacement les caries et protège les gencives, tout en rendant le brossage amusant pour les enfants.</p>"
+          }
+        },
+        "166442457738b23caf-1": {
+          "type": "item",
+          "settings": {
+            "title": "La Zeloa respecte-t-elle les gencives et l’émail dentaire des enfants ?",
+            "content": "<p><strong>Absolument – et c’est prouvé !</strong><br/>Conçu en silicone souple de qualité médicale, la <strong>Zeloa brosse 360°</strong> utilise des vibrations ultrasoniques douces, recommandées par les dentistes pour enfants.<br/>Elle respecte l’émail en pleine formation et protège les gencives sensibles, tout en assurant un nettoyage complet et agréable.</p>"
+          }
+        },
+        "item_Mxpjfe": {
+          "type": "item",
+          "settings": {
+            "title": "Mon enfant va-t-il vraiment l’accepter facilement ?",
+            "content": "<p>Oui ! Sa matière douce type tétine et son design ludique transforment le brossage en moment de jeu, ce qui facilite grandement l’acceptation chez les jeunes enfants.</p>"
+          }
+        },
+        "item_RgPy4r": {
+          "type": "item",
+          "settings": {
+            "title": "La Zeloa est-elle étanche ?",
+            "content": "<p>Oui la <strong>Zeloa brosse 360°</strong> est étanche selon la norme IPX7.</p>"
+          }
+        },
+        "item_gAXyKk": {
+          "type": "item",
+          "settings": {
+            "title": "Quelle autonomie offre la Zeloa ?",
+            "content": "<p><strong>Jusqu’à 7 jours d’autonomie avec une seule charge</strong>– idéal pour une utilisation quotidienne sans se soucier de la batterie.<br/>Recharge rapide et facile grâce au câble USB inclus.</p>"
+          }
+        },
+        "item_8PikyL": {
+          "type": "item",
+          "settings": {
+            "title": "La Zeloa est-elle adaptée aux enfants portant un appareil dentaire ou suivant un autre traitement orthodontique ?",
+            "content": "<p><strong>Oui – et encore mieux qu’une brosse classique !</strong>Grâce à sa tête douce et flexible, la <strong>Zeloa brosse 360° </strong>nettoie efficacement autour et entre les bagues, là où une brosse traditionnelle a du mal à passer.<br/>Elle est parfaitement adaptée aux appareils dentaires, couronnes et facettes, tout en restant douce pour les dents et les gencives sensibles.</p>"
+          }
+        },
+        "item_apEVnz": {
+          "type": "item",
+          "settings": {
+            "title": "Peut-on utiliser un dentifrice classique ?",
+            "content": "<p><strong>Oui !</strong><br/>Vous pouvez utiliser n’importe quel dentifrice classique.<br/>Pour un résultat optimal, appliquez une petite quantité uniformément sur l’embout avant de commencer le brossage.</p>"
+          }
+        },
+        "item_g3LeBN": {
+          "type": "item",
+          "settings": {
+            "title": "À quelle fréquence dois-je remplacer l’embout ?",
+            "content": "<p>Pour une hygiène et des performances optimales, nous recommandons de remplacer l’embout en silicone tous les 3 à 4 mois, comme pour une tête de brosse à dents classique.</p>"
+          }
+        },
+        "item_8MFwX6": {
+          "type": "item",
+          "settings": {
+            "title": "La Zeloa va-t-elle rendre mon enfant paresseux ?",
+            "content": "<p><strong>Pas du tout !</strong>La brosse à dents pour enfants encourage l’autonomie en rendant le brossage facile, efficace et amusant.<br/>Elle est parfaite pour instaurer de saines habitudes de brossage qui dureront toute la vie.</p>"
+          }
+        },
+        "item_fWk7j9": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce adapté aux enfants ayant des sensibilités ou des troubles sensoriels ?",
+            "content": "<p><strong>Oui – et elle change vraiment la donne !</strong>De nombreux parents ont constaté que notre brosse à dents pour enfants facilite le brossage chez les enfants présentant des sensibilités sensorielles, de l’autisme, du TDAH ou d’autres besoins spécifiques.<br/>Grâce à son design doux et à son fonctionnement agréable, elle transforme un moment parfois difficile en une routine simple, confortable et rassurante.</p>"
+          }
+        },
+        "item_Aty3CL": {
+          "type": "item",
+          "settings": {
+            "title": "Qu'elle sont les pays de livraison?",
+            "content": "<p>Livraison disponible en France, Luxembourg, Suisse et Belgique</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_4wy4yn",
+        "item_CJtnFP",
+        "item_Yqbig9",
+        "166442457738b23caf-0",
+        "166442457738b23caf-1",
+        "item_Mxpjfe",
+        "item_RgPy4r",
+        "item_gAXyKk",
+        "item_8PikyL",
+        "item_apEVnz",
+        "item_g3LeBN",
+        "item_8MFwX6",
+        "item_fWk7j9",
+        "item_Aty3CL"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "contact_4eMBiX": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
+        "title": "Une question",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "#181616",
+        "button_background": "#f0c417",
+        "button_text_color": "#181616"
+      }
+    },
+    "17547155264b9081e7": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "17548419043ad4b515": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_ddNF8T": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_ddNF8T"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_ezUjx3",
+    "logo_list_aLUhq4",
+    "custom_liquid_gLtWJM",
+    "before_after_image_MbaaWq",
+    "multi_column_HcAbgD",
+    "custom_liquid_Dd8zDM",
+    "featured_product_nyKfgC",
+    "1754715508d43cdc4d",
+    "tabs_cYdcCh",
+    "custom_liquid_AtwcUd",
+    "image_with_text_overlay_7LfXbx",
+    "image_with_text_overlay_UUfEHN",
+    "images_with_text_scrolling_e8A4jk",
+    "custom_liquid_gqJ8wK",
+    "multiple_images_with_text_iqjDYF",
+    "faq",
+    "contact_4eMBiX",
+    "17547155264b9081e7",
+    "17548419043ad4b515"
+  ]
+}
