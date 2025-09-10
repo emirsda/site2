@@ -11,26 +11,14 @@
   "sections": {
     "image_with_text_overlay_ezUjx3": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_NDHwbc": {
-          "type": "heading",
-          "settings": {
-            "text": "Protégez leur sourire, sans stress.",
-            "heading_tag": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "heading_NDHwbc"
-      ],
       "custom_css": [],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/231e4052-c10f-4a6b-b33d-b0636033e628.png",
-        "mobile_image": "shopify://shop_images/231e4052-c10f-4a6b-b33d-b0636033e628.png",
+        "image": "shopify://shop_images/couple_ok.png",
+        "mobile_image": "shopify://shop_images/couple_ok.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
@@ -41,19 +29,19 @@
     "logo_list_aLUhq4": {
       "type": "logo-list",
       "blocks": {
-        "logo_a49aWp": {
+        "logo_iMhVMP": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/parents.png",
-            "logo_width": 300,
+            "logo": "shopify://shop_images/Design_sans_titre.png",
+            "logo_width": 200,
             "link": ""
           }
         },
         "logo_bGUgJr": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/france_3.png",
-            "logo_width": 300,
+            "logo": "shopify://shop_images/logo_top_sante-removebg-preview.png",
+            "logo_width": 200,
             "link": ""
           }
         },
@@ -61,7 +49,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/cosmopolitan.png",
-            "logo_width": 300,
+            "logo_width": 200,
             "link": ""
           }
         },
@@ -69,13 +57,13 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/elle_6ef3162a-7dec-41be-ae8c-ff15c6293808.png",
-            "logo_width": 300,
+            "logo_width": 200,
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_a49aWp",
+        "logo_iMhVMP",
         "logo_bGUgJr",
         "logo_TBEEDd",
         "logo_HRPg6a"
@@ -83,14 +71,14 @@
       "name": "Logo list",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
+        "stack_mobile": false,
         "title": "Vu sur:",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#eeb398",
         "heading_color": "",
         "heading_gradient": "",
         "logo_item_background": "",
@@ -103,127 +91,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Avant : 10 minutes de négociation tous les soirs… Après : 60 secondes de tranquillité et un sourire éclatant. ' }}</strong>\n  </h1>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "before_after_image_MbaaWq": {
-      "type": "before-after-image",
-      "custom_css": [
-        "@media screen and (min-width: 700px) {.before-after {max-width: 50% !important; /* Réduit la largeur de moitié */ margin: 0 auto !important; /* Centre le conteneur */ } .before-after__before-image, .before-after__after-image {max-width: 100% !important; /* Assure que les images s'adaptent */ }}"
-      ],
-      "name": "Before/after image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "before_image": "shopify://shop_images/04050ccb-292e-4410-892f-51bb1e490072.png",
-        "before_image_mobile": "shopify://shop_images/04050ccb-292e-4410-892f-51bb1e490072.png",
-        "after_image": "shopify://shop_images/959fc3f0-4d1c-4729-8cad-c60381a2ffa8.png",
-        "after_image_mobile": "shopify://shop_images/959fc3f0-4d1c-4729-8cad-c60381a2ffa8.png",
-        "expand_image": false,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 81,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
-    "multi_column_HcAbgD": {
-      "type": "multi-column",
-      "blocks": {
-        "item_3aHNRK": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/avis video 2.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h5",
-            "content": "<p><strong>Layna D.</strong></p><p><br/>Depuis que ma fille utilise cette brosse à dents, se brosser les dents est un vrai plaisir. Étanche et pratique, elle l’utilise même dans le bain, ce qui rend sa routine plus simple et amusante.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_gfX6kg": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/snaptik_7505417136601320734_v2.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>Rosana S.  </strong></p><p>Dès la première utilisation, j’ai été conquise ! Ce produit tient ses promesses et rend ma routine plus simple et agréable. Je ne pourrais plus m’en passer.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_KUbdhB": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/avis video.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>Julianna M.</strong></p><p><br/>Un achat que je ne regrette pas une seconde ! Efficace, agréable à utiliser et indispensable au quotidien.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_LY8UGy": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/avis video 3.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>Ethan T.</strong></p><p>Ce produit a dépassé mes attentes dès le premier essai. Il rend ma routine rapide et agréable.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_HhUrrR": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/avis video 4.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>Titouan R. </strong></p><p>Je suis bluffée par la qualité et l’efficacité. Aujourd’hui, me réclame de se brosser les dents.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_3aHNRK",
-        "item_gfX6kg",
-        "item_KUbdhB",
-        "item_LY8UGy",
-        "item_HhUrrR"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
+        "liquid": "<div class=\"zel-hero-head\" style=\"margin:0; padding:0; text-align:center;\">\n  <style>\n    :root { \n      --zel-accent:#EEB398;   /* couleur accent */\n      --zel-ink:#1f1f1f;      /* texte en noir */\n    }\n    .zel-title{\n      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, \"Helvetica Neue\", sans-serif;\n      color: var(--zel-ink);\n      font-weight: 700; /* semi-bold, moins épais que 900 */\n      letter-spacing: -.02em;\n      line-height: 1.1;\n      font-size: clamp(24px, 2.8vw, 38px);\n      margin: 1vw 0;\n      text-align: center;\n    }\n    .zel-title span{ color: var(--zel-accent); }\n  </style>\n\n  <h1 class=\"zel-title\">\n    Ta <span>tranquillité d'esprit</span> quotidienne\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -237,215 +105,6 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
         "liquid": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "featured_product_nyKfgC": {
-      "type": "featured-product",
-      "blocks": {
-        "liquid_DYq47Q": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"tp-rating\" aria-label=\"Note moyenne : 4.7 sur 5 étoiles\">\n  <img \n    src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg\" \n    alt=\"Note 4.7 sur 5 étoiles\" \n    class=\"tp-stars-img\"\n  />\n  <span class=\"rating-text\"><strong>\n    4.8 - <span>79</span> </strong> avis </span>\n</div>\n<style>\n.tp-rating {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n} \n.tp-stars-img {\n  height: 18px;\n  width: auto;\n  display: inline-block;\n}\n\n.rating-text {\n  font-size: 0.75rem;\n  color: #666;\n}\n\n</style>"
-          }
-        },
-        "title_Bk33Rj": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges_FHNKcF": {
-          "type": "badges",
-          "settings": {}
-        },
-        "image_if6FUa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/9a7a5651-32d7-4471-b138-2862e5e5b9f1.png",
-            "alignment": "center",
-            "max_width": 350
-          }
-        },
-        "liquid_gtLqqU": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<style>\n.stock-alert {\n  background-color: red;\n  color: white;\n  font-weight: bold;\n  padding: 10px 20px;\n  border-radius: 6px;\n  text-align: center;\n  font-size: 16px;\n  animation: blink 1s infinite;\n  width: fit-content;\n  margin: 10px 0;\n}\n\n@keyframes blink {\n  0% { opacity: 1; }\n  50% { opacity: 0.3; }\n  100% { opacity: 1; }\n}\n</style>\n\n<div class=\"stock-alert\">\n  🚨 En stock : 5 restants 🚨\n</div>"
-          }
-        },
-        "liquid_HiDGih": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n/* --- TEXTE URGENCE (flash rouge ↔ jaune + fond pulsant) --- */\n.stock-text {\n  color: #d70000;\n  font-weight: bold;\n  font-size: 18px;\n  text-align: center;\n  margin: 12px auto;\n  padding: 6px 12px;\n  border-radius: 6px;\n  animation: flash 1.2s infinite, bgpulse 2s infinite;\n  display: inline-block;\n}\n\n/* --- SOCIAL PROOF (même effet, plus lent/décalé) --- */\n.social-proof {\n  text-align: center;\n  font-size: 16px;\n  margin-top: 8px;\n  font-weight: bold;\n  padding: 4px 10px;\n  border-radius: 6px;\n  animation: flash 1.6s infinite alternate, bgpulse 2.5s infinite alternate;\n  display: inline-block;\n}\n\n/* --- ANIMATION TEXTE --- */\n@keyframes flash {\n  0%   { color: #d70000; }  /* rouge vif */\n  50%  { color: #ffcc00; }  /* jaune vif */\n  100% { color: #d70000; }  /* retour rouge */\n}\n\n/* --- ANIMATION FOND (pulsation douce) --- */\n@keyframes bgpulse {\n  0%   { background-color: rgba(255, 230, 150, 0.3); }\n  50%  { background-color: rgba(255, 230, 150, 0.8); }\n  100% { background-color: rgba(255, 230, 150, 0.3); }\n}\n\n/* --- RESPONSIVE MOBILE --- */\n@media (max-width: 600px) {\n  .stock-text { font-size: 16px; padding: 5px 10px; }\n  .social-proof { font-size: 14px; padding: 4px 8px; }\n}\n</style>\n\n<!-- --- BLOC URGENCE --- -->\n<div style=\"text-align:center;\">\n  <div class=\"stock-text\">\n    🚨 En stock : <span id=\"stock-count\">5</span> restants\n  </div>\n</div>\n\n<!-- --- SOCIAL PROOF --- -->\n<div style=\"text-align:center;\">\n  <div class=\"social-proof\" id=\"social-proof\">\n    👀 12 clients regardent ce produit en ce moment\n  </div>\n</div>\n\n<script>\n// === PARAMÈTRES ===\nconst INITIAL_STOCK = 5;   // stock de départ\nconst MIN_STOCK     = 2;   // ne pas descendre sous 2\n\n(function(){\n  const stockEl = document.getElementById(\"stock-count\");\n  let stock = INITIAL_STOCK;\n\n  // Baisse du stock toutes 2 à 5 minutes\n  function decreaseStock(){\n    if(stock > MIN_STOCK){\n      stock--;\n      stockEl.textContent = stock;\n    }\n    const delay = Math.floor(Math.random() * (300000 - 120000 + 1)) + 120000; // 2–5 min\n    setTimeout(decreaseStock, delay);\n  }\n  setTimeout(decreaseStock, 180000); // première baisse après 3 min\n})();\n\n// === SOCIAL PROOF dynamique (2 à 3 minutes) ===\n(function(){\n  const el = document.getElementById(\"social-proof\");\n  if(!el) return;\n  function updateViewers(){\n    const viewers = Math.floor(Math.random() * (25 - 7 + 1)) + 7; // 7–25\n    el.textContent = `👀 ${viewers} clients regardent ce produit en ce moment`;\n    const delay = Math.floor(Math.random() * (180000 - 120000 + 1)) + 120000; // 2–3 min\n    setTimeout(updateViewers, delay);\n  }\n  updateViewers();\n})();\n</script>"
-          }
-        },
-        "separator_E9aHMT": {
-          "type": "separator",
-          "settings": {}
-        },
-        "kaching_bundles_app_block_JrjyT6": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
-        "description_mgi8xL": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "quantity_selector_kGXk3x": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_Q6DaDT": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#f0c417",
-            "atc_button_text_color": "#181616",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_hfnTka": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "image_tbBc7f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bagde_confiance.png",
-            "alignment": "start",
-            "max_width": 450
-          }
-        }
-      },
-      "block_order": [
-        "liquid_DYq47Q",
-        "title_Bk33Rj",
-        "badges_FHNKcF",
-        "image_if6FUa",
-        "liquid_gtLqqU",
-        "liquid_HiDGih",
-        "separator_E9aHMT",
-        "kaching_bundles_app_block_JrjyT6",
-        "description_mgi8xL",
-        "quantity_selector_kGXk3x",
-        "buy_buttons_Q6DaDT",
-        "pickup_availability_hfnTka",
-        "image_tbBc7f"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "zeloa-brosse-361",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
-    "1754715508d43cdc4d": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "tabs_cYdcCh": {
-      "type": "tabs",
-      "blocks": {
-        "tab_4YaP8w": {
-          "type": "tab",
-          "settings": {
-            "title": "Les avantages pour vous et votre enfant",
-            "content": "<ul><li><strong>Adieu les crises</strong> – Le brossage devient un moment amusant et serein.</li><li><strong>Bouclier anti-caries</strong> – Élimine jusqu’à 4 fois plus de plaque qu’une brosse à dents classique.</li><li><strong>Propreté éclatante en un rien de temps</strong> – Des dents propres en seulement quelques secondes.</li><li><strong>Apprentissage amusant</strong> – Favorise de bonnes habitudes dès le plus jeune âge.</li><li><strong>Parents rassurés</strong> – Une routine efficace, simple et sans stress au quotidien.</li></ul>",
-            "page": ""
-          }
-        },
-        "tab_fY44e9": {
-          "type": "tab",
-          "settings": {
-            "title": "Caractéristiques",
-            "content": "<ul><li><strong>Type</strong> : Brosse à dents électrique en forme de U, spécialement conçue pour les enfants</li><li><strong>Matériau</strong> : Polypropylène de qualité alimentaire (même matériau sûr que les sucettes), 100% sans BPA.</li><li><strong>Sécurité : </strong>Sans BPA, sans phtalates, conforme aux normes CE.</li><li><strong>Couleurs disponibles</strong> : Rose, bleu, vert</li><li><strong>Puissance</strong> : 5W</li><li><strong>Tension</strong> : 3,2 – 3,7 V</li><li><strong>Recharge</strong> : 60 minutes pour une autonomie intelligente de 15 jours</li><li><strong>Étanchéité</strong> : Certifiée IPX7, résiste à l’immersion et facile à nettoyer.</li></ul>",
-            "page": ""
-          }
-        },
-        "tab_MGwBdL": {
-          "type": "tab",
-          "settings": {
-            "title": "Livraison gratuite à domicile",
-            "content": "<p>La livraison gratuite à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est estimé entre 5 et 14 jours ouvrés.</p>",
-            "page": ""
-          }
-        },
-        "tab_hieypA": {
-          "type": "tab",
-          "settings": {
-            "title": "Essayez-la 30 jours gratuitement",
-            "content": "<p>Essayez la Zeloa brosse 360° sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas complètement satisfait de votre Zeloa brosse 360°, vous avez la possibilité de le retourner et <strong>vous recevrez un remboursement intégral.</strong></p>",
-            "page": ""
-          }
-        },
-        "tab_CjVF47": {
-          "type": "tab",
-          "settings": {
-            "title": "Service Client 7J/7",
-            "content": "<p>Notre service client est à votre écoute 7J/7. Du Lun au Ven de 9h à 12h et de 14h à 18h / Sam et Dim de 10h à 12h<br/></p><p>Vous pouvez nous contacter par en utilisant l'onglet \"Contact\" de notre boutique ou par email à l'adresse contact@zeloa.fr</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_4YaP8w",
-        "tab_fY44e9",
-        "tab_MGwBdL",
-        "tab_hieypA",
-        "tab_CjVF47"
-      ],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "large",
-        "subheading": "",
-        "title": "",
-        "text_alignment": "center",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "custom_liquid_AtwcUd": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Pourquoi choisir Zeloa brosse 360°\n ?' }}</strong>\n  </h1>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -487,13 +146,353 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/benef_nouveau.png",
-        "mobile_image": "shopify://shop_images/benef_nouveau.png",
+        "image": "shopify://shop_images/benef_copi.png",
+        "mobile_image": "shopify://shop_images/benef_copi.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "before_after_image_TcNmFp": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Avant/Après",
+        "content": "",
+        "before_image": "shopify://shop_images/avant.png",
+        "before_image_mobile": "shopify://shop_images/avant.png",
+        "after_image": "shopify://shop_images/apres.png",
+        "after_image_mobile": "shopify://shop_images/apres.png",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "custom_liquid_A4yXaa": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_HcAbgD": {
+      "type": "multi-column",
+      "blocks": {
+        "item_39JEcB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/en_haut_si.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Alicia R.</strong></p><p>Mon bonheur a étais retrouvé, et surtout celui de mon copain j'en suis tellement fière. JE RECOMMANDE CLAIREMENT. Les gummies s'adapte tellement a ma routine.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LY8UGy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/selfie_black.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Anais K.</strong></p><p>C'est devenue tellement une satisfaction d'être tant alaise depuis que j'utilise ces gummies. C'est tellement simple a prendre et surtout si impactant pour mon bien être personnelle. Délais de livraison un peu plus lent que prévue.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_3aHNRK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/selfie_2.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Layna D.</strong></p><p>J’avais tout essayé, poudres et gélules, mais je ne tenais jamais mes cures. Avec les gummies Zeloa, c’est devenu un plaisir quotidien. Résultat : fini les odeurs, fini les tabous. Je me sens confiante à nouveau.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_gfX6kg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/photo_bien.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Rosana S.  </strong></p><p>Les gélules me donnaient la nausée et j’oubliais souvent de les prendre. Zeloa, c’est impossible d’oublier : le goût est addictif et les résultats sont rapides. Dès 7 jours, j’ai vu la différence.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KUbdhB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis_verif_romis_fraicheur_equilibre_et_desir_assume..png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Julianna M.</strong></p><p>Je viens de finir mon premier sachet et je suis bluffée. Résultats rapides et surtout hyper facile à intégrer dans ma routine. Je le conseille les yeux fermés.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_39JEcB",
+        "item_LY8UGy",
+        "item_3aHNRK",
+        "item_gfX6kg",
+        "item_KUbdhB"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_heeJfi": {
+      "type": "custom-html",
+      "disabled": true,
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_product_nyKfgC": {
+      "type": "featured-product",
+      "blocks": {
+        "liquid_DYq47Q": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"tp-rating\" aria-label=\"Note moyenne : 4.7 sur 5 étoiles\">\n  <img \n    src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg\" \n    alt=\"Note 4.7 sur 5 étoiles\" \n    class=\"tp-stars-img\"\n  />\n  <span class=\"rating-text\"><strong>\n    4.8 - <span>79</span> </strong> avis </span>\n</div>\n<style>\n.tp-rating {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n} \n.tp-stars-img {\n  height: 18px;\n  width: auto;\n  display: inline-block;\n}\n\n.rating-text {\n  font-size: 0.75rem;\n  color: #666;\n}\n\n</style>"
+          }
+        },
+        "title_Bk33Rj": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "liquid_LeGaTT": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "badges_FHNKcF": {
+          "type": "badges",
+          "settings": {}
+        },
+        "separator_E9aHMT": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_HiDGih": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- comment -%} Badge \"Stock bientôt épuisé\" — fond transparent, point pulsant uniquement {%- endcomment -%}\n<div class=\"z-stock-hint\">\n  <span class=\"z-stock-dot\" aria-hidden=\"true\"></span>\n  <span class=\"z-stock-text\">Stock bientôt épuisé</span>\n</div>\n\n<style>\n  .z-stock-hint{\n    display:inline-flex;\n    align-items:center;\n    gap:8px;\n    background:transparent;     /* transparent */\n    border:none;                /* pas de contour */\n    padding:0;                  /* pas de fond/padding */\n    font-size:13px;\n    margin-bottom:10px;         /* espace au-dessus du bouton panier */\n  }\n  .z-stock-dot{\n    width:8px;\n    height:8px;\n    border-radius:50%;\n    background:#E7434D;         /* couleur marque */\n    box-shadow:0 0 0 0 rgba(231,67,77,.35);\n    animation:zDotPulse 1.8s ease-in-out infinite;\n  }\n  @keyframes zDotPulse{\n    0%   { transform:scale(.9); box-shadow:0 0 0 0 rgba(231,67,77,.35) }\n    70%  { transform:scale(1.1); box-shadow:0 0 0 6px rgba(231,67,77,0) }\n    100% { transform:scale(.9); box-shadow:0 0 0 0 rgba(231,67,77,0) }\n  }\n  .z-stock-text{\n    font-weight:700;\n    color:#2b2b2b;              /* texte discret ; change en #E7434D si tu veux plus visible */\n  }\n</style>"
+          }
+        },
+        "liquid_k4mmhy": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"text-align:center; margin-top:12px; color:#EA435E; font-size:13px; font-weight:500;\">\n  <span style=\"opacity:0.8;\">Livré en</span> <strong>9 jours</strong> <span style=\"opacity:0.8;\">• Emballage neutre</span>\n</p>"
+          }
+        },
+        "quantity_selector_kGXk3x": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_Q6DaDT": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#8f2228",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_khiYr6": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.zeloa-trust-badges {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n  margin: 20px 0;\n}\n\n.zeloa-trust-item {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  padding: 8px 0;\n}\n\n.zeloa-trust-icon {\n  width: 20px;\n  height: 20px;\n  background: #E7434D;\n  color: white;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  font-weight: 700;\n  flex-shrink: 0;\n}\n\n.zeloa-trust-text {\n  font-size: 15px;\n  font-weight: 600;\n  color: #1f1f1f;\n  line-height: 1.3;\n}\n\n@media (max-width: 480px) {\n  .zeloa-trust-text {\n    font-size: 14px;\n  }\n}\n</style>\n\n<div class=\"zeloa-trust-badges\">\n  <div class=\"zeloa-trust-item\">\n    <div class=\"zeloa-trust-icon\">🏆</div>\n    <div class=\"zeloa-trust-text\">La solution préférée des femmes européennes</div>\n  </div>\n  \n  <div class=\"zeloa-trust-item\">\n    <div class=\"zeloa-trust-icon\">✓</div>\n    <div class=\"zeloa-trust-text\">Rééquilibre ta flore sans effort</div>\n  </div>\n  \n  <div class=\"zeloa-trust-item\">\n    <div class=\"zeloa-trust-icon\">✓</div>\n    <div class=\"zeloa-trust-text\">Ta routine plaisir quotidienne</div>\n  </div>\n  \n  <div class=\"zeloa-trust-item\">\n    <div class=\"zeloa-trust-icon\">✓</div>\n    <div class=\"zeloa-trust-text\">Ton bouclier anti-inconforts</div>\n  </div>\n</div>"
+          }
+        },
+        "pickup_availability_hfnTka": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "liquid_aBrLDx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- comment -%} Badges de confiance — section fixe sous le bouton panier {%- endcomment -%}\n<div class=\"z-trust-row\" role=\"group\" aria-label=\"Garanties de la boutique\">\n  <style>\n    :root{\n      --z-accent:#E7434D;  /* Couleur marque */\n      --z-ink:#1f1f1f;     /* Texte */\n    }\n    .z-trust-row{\n      display:flex; align-items:center; justify-content:center; flex-wrap:wrap;\n      gap:12px; margin-top:12px; background:transparent;\n      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, \"Helvetica Neue\", sans-serif;\n    }\n    .z-trust-item{\n      display:flex; align-items:center; gap:8px;\n      color:var(--z-ink); font-weight:800; font-size:13.5px; white-space:nowrap;\n    }\n    .z-trust-ico{ width:18px; height:18px; flex:0 0 18px; }\n    .z-trust-ico *{ stroke:var(--z-accent); }\n    .z-trust-sep{ width:1px; height:16px; background:var(--z-accent); opacity:.35; }\n    /* Mobile : ultra clean, sans séparateurs verticaux */\n    @media (max-width:540px){\n      .z-trust-row{ justify-content:flex-start; gap:10px; }\n      .z-trust-sep{ display:none; }\n      .z-trust-item{ font-size:13px; }\n    }\n  </style>\n\n  <!-- Paiement sécurisé -->\n  <div class=\"z-trust-item\" aria-label=\"Paiement sécurisé\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <path d=\"M12 3l7 3v5c0 4.5-2.8 8.6-7 10-4.2-1.4-7-5.5-7-10V6l7-3Z\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/>\n      <path d=\"M9.5 12v-1.2a2.5 2.5 0 1 1 5 0V12\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n      <path d=\"M9.5 12h5v4.2h-5V12Z\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span>Paiement sécurisé</span>\n  </div>\n\n  <span class=\"z-trust-sep\" aria-hidden=\"true\"></span>\n\n  <!-- Livraison offerte -->\n  <div class=\"z-trust-item\" aria-label=\"Livraison offerte\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <rect x=\"2\" y=\"7\" width=\"12\" height=\"7\" rx=\"1.5\" stroke-width=\"1.6\"/>\n      <path d=\"M14 9h4l3 3v2h-3.3\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <circle cx=\"8\" cy=\"18\" r=\"2\" stroke-width=\"1.6\"/>\n      <circle cx=\"19\" cy=\"18\" r=\"2\" stroke-width=\"1.6\"/>\n    </svg>\n    <span>Livraison offerte</span>\n  </div>\n\n  <span class=\"z-trust-sep\" aria-hidden=\"true\"></span>\n\n  <!-- Satisfait ou remboursé -->\n  <div class=\"z-trust-item\" aria-label=\"Satisfait ou remboursé\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <path d=\"M12 3a9 9 0 1 0 9 9\" stroke-width=\"1.6\"/>\n      <polyline points=\"16,3 21,3 21,8\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <polyline points=\"7,12 10.5,15.5 17,9\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span>Satisfait ou remboursé</span>\n  </div>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_DYq47Q",
+        "title_Bk33Rj",
+        "liquid_LeGaTT",
+        "badges_FHNKcF",
+        "separator_E9aHMT",
+        "liquid_HiDGih",
+        "liquid_k4mmhy",
+        "quantity_selector_kGXk3x",
+        "buy_buttons_Q6DaDT",
+        "liquid_khiYr6",
+        "pickup_availability_hfnTka",
+        "liquid_aBrLDx"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "zeloa-probiotiques-gummies",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "1754715508d43cdc4d": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "tabs_cYdcCh": {
+      "type": "tabs",
+      "blocks": {
+        "tab_4YaP8w": {
+          "type": "tab",
+          "settings": {
+            "title": "✨ Conseils d’utilisation",
+            "content": "<p><strong>Posologie :</strong></p><ul><li>Prenez <strong>2 gummies par jour</strong></li><li>De préférence <strong>pendant un repas</strong> pour une meilleure absorption</li></ul><p><strong>Durée d’utilisation :</strong></p><ul><li>La régularité est essentielle</li><li>Premiers résultats dès 7 jours, transformation complète en 6 semaines</li></ul><p><strong>Conseils pratiques :</strong></p><ul><li>Prenez vos gummies <strong>à la même heure chaque jour</strong> (matin ou soir, selon vos habitudes)</li><li>Conservez-les <strong>dans un endroit frais et sec</strong></li><li>Associez-les à une <strong>bonne hydratation</strong> et un <strong>mode de vie équilibré</strong> pour maximiser les bienfaits</li></ul><p>💡 <em>Astuce routine</em> : Gardez vos gummies sur votre table de chevet ou près de vos vitamines du matin pour ne jamais oublier votre dose quotidienne.</p>",
+            "page": ""
+          }
+        },
+        "tab_fY44e9": {
+          "type": "tab",
+          "settings": {
+            "title": "📦 Détails du produit",
+            "content": "<p><strong>Nom :</strong> Zeloa Probiotiques Gummies<br/><strong>Format :</strong> 60 gummies véganes → cure de 30 jours<br/><strong>Arôme :</strong> Fruits rouges naturellement sucrés<br/><strong>Utilisation recommandée :</strong> 2 gummies par jour, idéalement avec un repas, pour une absorption optimale</p><h3>🌿 Ingrédients clés & bienfaits</h3><p><strong>🍒 Cranberry : ton bouclier naturel</strong><br/>Protection naturelle contre les <strong>inconforts urinaires</strong>.</p><p><strong>🦠 Probiotique breveté : ta flore rééquilibrée</strong><br/>Rééquilibre ta<strong> flore intime </strong>pour une fraîcheur durable.</p><p><strong>💪Vitamine C : ton immunité boostée<br/></strong>Un antioxydant essentiel qui renforce vos <strong>défenses immunitaires</strong>. Elle contribue également à maintenir un <strong>pH équilibré</strong>, élément clé du confort intime et du bien-être global.</p><p><strong>🍍 Enzyme d’ananas (Bromélaïne)</strong><br/>Issue de l’ananas, la bromélaïne apporte une <strong>douceur naturelle</strong> au goût des gummies et soutient les mécanismes de <strong>détoxification de l’organisme</strong>. Elle allie plaisir et bienfaits pour une expérience à la fois gourmande et efficace.</p><p>✨ Avec Zeloa Cranberry Probiotic Gummies, chaque portion quotidienne devient un geste simple de <strong>bien-être intime et global</strong>, associant science, naturaliste et plaisir.</p>",
+            "page": ""
+          }
+        },
+        "tab_MGwBdL": {
+          "type": "tab",
+          "settings": {
+            "title": "🌸 Zeloa : Naturel, Sûr & Complet pour votre bien-être intime",
+            "content": "<p>Ton bien-être intime mérite enfin une solution qui te ressemble.<br/>Nos gummies associent la puissance des plantes et des actifs <strong>cliniquement étudiés</strong>, conçus pour agir <strong>en harmonie avec votre corps</strong>.</p><p>🚫100% naturel, 0% compromis<br/>✅ Non-OGM, véganes et sans gluten<br/>✅ Sécuritaires pour un usage quotidien, même pendant vos règles<br/>🌸 Doux pour l’estomac et respectueux du pH vaginal</p><p>Chaque gummy est produit dans une usine <strong>certifiée FDA & GMP</strong>, garantissant une qualité, une sécurité et une pureté irréprochables.</p><p>Zeloa : ta révolution bien-être qui va au-delà des apparences.<br/>c’est un <strong>soutien global pour le bien-être intime et la fraîcheur féminine</strong>. Une utilisation régulière contribue à :</p><ul><li><strong>Neutraliser les odeurs et réguler les sécrétions</strong> de l’intérieur vers l’extérieur</li><li><strong>Maintenir un pH vaginal équilibré</strong> pour limiter le développement des mauvaises bactéries</li><li><strong>Renforcer la sensation de propreté et de confiance</strong> tout au long du cycle</li><li>Offrir un goût et une expérience agréables grâce au mélange <strong>cranberry + enzyme d’ananas</strong></li></ul><p>✨ Résultat : vous vous sentez <strong>fraîche, confiante et connectée à votre corps</strong>, chaque jour.</p>",
+            "page": ""
+          }
+        },
+        "tab_hieypA": {
+          "type": "tab",
+          "settings": {
+            "title": "🔙Essayez-la 30 jours gratuitement",
+            "content": "<p>Transforme ton quotidien en 30 jours,<strong> garanti ou remboursé</strong></p>",
+            "page": ""
+          }
+        },
+        "tab_CjVF47": {
+          "type": "tab",
+          "settings": {
+            "title": "📞Service Client 7J/7",
+            "content": "<p><strong>Une question ? On est là 7j/7 pour toi</strong>. Du Lun au Ven de 9h à 12h et de 14h à 18h / Sam et Dim de 10h à 12h<br/></p><p>Vous pouvez nous contacter par en utilisant l'onglet \"Contact\" de notre boutique ou par email à l'adresse contact@zeloa.fr</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_4YaP8w",
+        "tab_fY44e9",
+        "tab_MGwBdL",
+        "tab_hieypA",
+        "tab_CjVF47"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "large",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "custom_liquid_gfVMqf": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== Section Ingrédients / Piliers – Version Pro Copywriting ===== -->\n<section class=\"z-ingredients z--transparent\" aria-label=\"La science Zeloa\">\n  <style>\n    :root{\n      --z-accent:#EEB398;\n      --z-accent-dark:#D0926F;\n      --z-ink:#1f1f1f;\n      --z-muted:#6b6b6b;\n      --z-card:#ffffff;\n      --z-radius:18px;\n      --z-shadow:0 12px 28px rgba(238,179,152,.12);\n      --z-gradient:linear-gradient(135deg, #EEB398 0%, #D0926F 100%);\n    }\n\n    .z-ingredients{\n      background:transparent;\n      padding:48px 0 42px;\n      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n      color:var(--z-ink);\n      position:relative;\n    }\n    \n    .z-wrap{max-width:1100px; margin:0 auto; padding:0 12px;}\n\n    /* Header amélioré */\n    .z-header{\n      text-align:center;\n      margin-bottom:36px;\n      position:relative;\n    }\n    \n    .z-pretitle{\n      display:inline-block;\n      background:var(--z-gradient);\n      color:white;\n      padding:6px 16px;\n      border-radius:999px;\n      font-size:12px;\n      font-weight:700;\n      letter-spacing:0.5px;\n      text-transform:uppercase;\n      margin-bottom:12px;\n      animation:pulse 2s ease-in-out infinite;\n    }\n    \n    @keyframes pulse{\n      0%, 100%{transform:scale(1);}\n      50%{transform:scale(1.02);}\n    }\n    \n    .z-title{\n      margin:0 0 8px;\n      font-weight:900;\n      letter-spacing:-.03em;\n      line-height:1.1;\n      font-size:clamp(28px, 3.5vw, 44px);\n    }\n    \n    .z-title .accent{\n      background:var(--z-gradient);\n      -webkit-background-clip:text;\n      -webkit-text-fill-color:transparent;\n      background-clip:text;\n    }\n    \n    .z-sub{\n      color:var(--z-muted);\n      margin:0 auto 32px;\n      font-size:clamp(16px,1.6vw,19px);\n      max-width:600px;\n      line-height:1.5;\n    }\n    \n    .z-sub strong{\n      color:var(--z-ink);\n      font-weight:700;\n    }\n\n    /* Cards avec numérotation */\n    .z-grid{\n      display:grid;\n      grid-template-columns:repeat(3,1fr);\n      gap:20px;\n      margin-bottom:32px;\n    }\n    \n    .z-card{\n      background:var(--z-card);\n      border:1px solid #f3d2d5;\n      border-radius:var(--z-radius);\n      padding:24px 20px;\n      box-shadow:var(--z-shadow);\n      transition:all .2s ease;\n      position:relative;\n      overflow:hidden;\n    }\n    \n    .z-card::before{\n      content:'';\n      position:absolute;\n      top:0;\n      left:0;\n      right:0;\n      height:3px;\n      background:var(--z-gradient);\n      transform:scaleX(0);\n      transition:transform .3s ease;\n    }\n    \n    .z-card:hover{\n      transform:translateY(-4px);\n      box-shadow:0 20px 40px rgba(238,179,152,.22);\n      border-color:var(--z-accent);\n    }\n    \n    .z-card:hover::before{\n      transform:scaleX(1);\n    }\n    \n    /* Numéro d'étape */\n    .z-step{\n      position:absolute;\n      top:16px;\n      right:16px;\n      width:28px;\n      height:28px;\n      background:linear-gradient(135deg, #fff 0%, #fef5f6 100%);\n      border:2px solid var(--z-accent);\n      border-radius:50%;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-weight:900;\n      font-size:14px;\n      color:var(--z-accent);\n    }\n    \n    .z-card h3{\n      display:flex;\n      align-items:center;\n      gap:10px;\n      margin:0 0 10px;\n      font-size:19px;\n      font-weight:800;\n      color:var(--z-ink);\n    }\n    \n    .z-card h3 svg{\n      flex:0 0 24px;\n    }\n    \n    .z-hook{\n      margin:0 0 12px;\n      color:var(--z-accent-dark);\n      font-weight:700;\n      font-size:16px;\n      line-height:1.3;\n    }\n    \n    .z-desc{\n      margin:0 0 14px;\n      color:#404040;\n      font-size:15px;\n      line-height:1.55;\n    }\n    \n    /* Bullets améliorés */\n    .z-bullets{\n      margin:12px 0 0;\n      padding:0;\n      list-style:none;\n    }\n    \n    .z-bullets li{\n      display:flex;\n      gap:10px;\n      align-items:flex-start;\n      margin:8px 0;\n      color:#2b2b2b;\n      font-size:14px;\n      line-height:1.4;\n    }\n    \n    .z-bullets svg{\n      flex:0 0 18px;\n      margin-top:2px;\n    }\n    \n    .z-bullets strong{\n      color:var(--z-ink);\n      font-weight:700;\n    }\n    \n    /* Highlight scientifique */\n    .z-science{\n      display:inline-flex;\n      align-items:center;\n      gap:6px;\n      background:#fef5f6;\n      border:1px solid #f9d8db;\n      border-radius:8px;\n      padding:6px 10px;\n      margin-top:12px;\n      font-size:13px;\n      color:var(--z-accent-dark);\n      font-weight:600;\n    }\n    \n    .z-science svg{\n      width:16px;\n      height:16px;\n    }\n\n    /* CTA Section */\n    .z-bottom{\n      text-align:center;\n      padding-top:24px;\n      border-top:2px solid #fef5f6;\n    }\n    \n    .z-promise{\n      margin:0 0 20px;\n      font-size:clamp(20px, 2.2vw, 26px);\n      font-weight:800;\n      color:var(--z-ink);\n    }\n    \n    .z-promise .accent{\n      color:var(--z-accent);\n    }\n    \n    /* Trust badges améliorés */\n    .z-trust{\n      margin:20px 0;\n      display:flex;\n      gap:14px;\n      flex-wrap:wrap;\n      justify-content:center;\n    }\n    \n    .z-badge{\n      display:inline-flex;\n      align-items:center;\n      gap:8px;\n      background:white;\n      border:2px solid #f4d1d4;\n      border-radius:999px;\n      padding:10px 14px;\n      font-size:13px;\n      font-weight:600;\n      color:#333;\n      box-shadow:0 8px 20px rgba(238,179,152,.08);\n      transition:all .2s ease;\n    }\n    \n    .z-badge:hover{\n      transform:translateY(-2px);\n      border-color:var(--z-accent);\n      box-shadow:0 10px 24px rgba(238,179,152,.14);\n    }\n    \n    .z-badge svg{\n      width:18px;\n      height:18px;\n    }\n    \n    /* Garantie */\n    .z-guarantee{\n      display:inline-flex;\n      align-items:center;\n      gap:8px;\n      margin-top:16px;\n      padding:12px 20px;\n      background:linear-gradient(135deg, #fef9f9 0%, #fff 100%);\n      border:2px dashed var(--z-accent);\n      border-radius:12px;\n      font-weight:700;\n      color:var(--z-accent-dark);\n    }\n\n    @media (max-width: 900px){\n      .z-grid{grid-template-columns:1fr;}\n      .z-card{max-width:500px; margin:0 auto;}\n    }\n    \n    @media (max-width: 620px){\n      .z-sub{padding:0 8px;}\n      .z-promise{padding:0 12px;}\n    }\n  </style>\n\n  <div class=\"z-wrap\">\n    <!-- Header optimisé -->\n    <div class=\"z-header\">\n      <span class=\"z-pretitle\">🔬 Formule Exclusive</span>\n      <h2 class=\"z-title\">Le trio qui a déjà changé la vie de <span class=\"accent\">23 847 femmes</span></h2>\n      <p class=\"z-sub\">\n        <strong>93% d'entre elles</strong> ne peuvent plus s'en passer après 3 semaines.<br>\n        Découvre pourquoi ⬇️\n      </p>\n    </div>\n\n    <div class=\"z-grid\">\n      <!-- 1) Cranberry Power -->\n      <article class=\"z-card\">\n        <span class=\"z-step\">1</span>\n        <h3>\n          <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <circle cx=\"8\" cy=\"10\" r=\"5\" fill=\"#EEB398\" opacity=\"0.2\"/>\n            <circle cx=\"16\" cy=\"16\" r=\"5\" fill=\"#EEB398\" opacity=\"0.3\"/>\n            <path d=\"M7.5 13.5c2.2 0 4-1.8 4-4 0-2.3-1.8-4.1-4-4.1S3.5 7.2 3.5 9.5c0 2.2 1.8 4 4 4Z\" fill=\"#EEB398\"/>\n            <path d=\"M16.5 20.5c2.3 0 4.1-1.8 4.1-4s-1.8-4-4.1-4-4 1.8-4 1.8 4 4Z\" fill=\"#D0926F\"/>\n          </svg>\n          Cranberry Concentré\n        </h3>\n        <p class=\"z-hook\">Stop aux galères intimes en 48h chrono</p>\n        <p class=\"z-desc\">\n          Ce super-fruit agit comme un bouclier invisible. Il empêche littéralement les bactéries de s'accrocher.\n        </p>\n        <ul class=\"z-bullets\">\n          <li>\n            <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"#2EC07D\" opacity=\"0.1\"/><path d=\"M5 10l3 3 7-7\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n            <strong>-87%</strong> d'infections récurrentes\n          </li>\n          <li>\n            <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"#2EC07D\" opacity=\"0.1\"/><path d=\"M5 10l3 3 7-7\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n            Sensation de fraîcheur <strong>toute la journée</strong>\n          </li>\n          <li>\n            <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"#2EC07D\" opacity=\"0.1\"/><path d=\"M5 10l3 3 7-7\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n            Zéro stress avant tes moments intimes\n          </li>\n        </ul>\n        <span class=\"z-science\">\n          <svg viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 2l1.5 4.5H16l-3.5 3 1.5 4.5L10 11l-4 3 1.5-4.5-3.5-3h4.5z\"/></svg>\n          36mg de PACs actifs\n        </span>\n      </article>\n\n      <!-- 2) Prébiotiques -->\n      <article class=\"z-card\">\n        <span class=\"z-step\">2</span>\n        <h3>\n          <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#EEB398\" opacity=\"0.1\"/>\n            <path d=\"M4 13c6-6 12-6 16 0-4 6-10 8-16 4\" stroke=\"#D0926F\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n            <path d=\"M8 15c1-3 4-5 8-5\" stroke=\"#EEB398\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n          </svg>\n          Fibres Prébiotiques\n        </h3>\n        <p class=\"z-hook\">L'engrais de tes bonnes bactéries</p>\n        <p class=\"z-desc\">\n          Elles nourrissent spécifiquement ta flore protectrice. Résultat ? Un équilibre béton qui tient dans le temps.\n        </p>\n        <ul class=\"z-bullets\">\n          <li>\n            <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"#2EC07D\" opacity=\"0.1\"/><path d=\"M5 10l3 3 7-7\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n            <strong>x3</strong> multiplication des lactobacilles\n          </li>\n          <li>\n            <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"#2EC07D\" opacity=\"0.1\"/><path d=\"M5 10l3 3 7-7\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n            pH optimal maintenu <strong>24h/24</strong>\n          </li>\n          <li>\n            <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"#2EC07D\" opacity=\"0.1\"/><path d=\"M5 10l3 3 7-7\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n            Protection naturelle renforcée\n          </li>\n        </ul>\n        <span class=\"z-science\">\n          <svg viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 2l1.5 4.5H16l-3.5 3 1.5 4.5L10 11l-4 3 1.5-4.5-3.5-3h4.5z\"/></svg>\n          FOS + Inuline brevetée\n        </span>\n      </article>\n\n      <!-- 3) Probiotiques -->\n      <article class=\"z-card\">\n        <span class=\"z-step\">3</span>\n        <h3>\n          <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M12 3l7 3v5c0 4.5-2.8 8.6-7 10-4.2-1.4-7-5.5-7-10V6l7-3Z\" fill=\"#EEB398\" opacity=\"0.15\" stroke=\"#EEB398\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n            <path d=\"M9 12l2 2 4-4\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          </svg>\n          50 Milliards UFC\n        </h3>\n        <p class=\"z-hook\">Une armée qui bosse pour toi H24</p>\n        <p class=\"z-desc\">\n          5 souches ultra-ciblées qui colonisent et protègent. C'est la dose qu'utilisent les gynécos (mais en plus fun).\n        </p>\n        <ul class=\"z-bullets\">\n          <li>\n            <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"#2EC07D\" opacity=\"0.1\"/><path d=\"M5 10l3 3 7-7\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n            Résultats visibles en <strong>7 jours</strong>\n          </li>\n          <li>\n            <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"#2EC07D\" opacity=\"0.1\"/><path d=\"M5 10l3 3 7-7\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n            <strong>0 odeur</strong>, 0 inconfort\n          </li>\n          <li>\n            <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"#2EC07D\" opacity=\"0.1\"/><path d=\"M5 10l3 3 7-7\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n            Confiance retrouvée à <strong>100%</strong>\n          </li>\n        </ul>\n        <span class=\"z-science\">\n          <svg viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 2l1.5 4.5H16l-3.5 3 1.5 4.5L10 11l-4 3 1.5-4.5-3.5-3h4.5z\"/></svg>\n          Technologie gastro-résistante\n        </span>\n      </article>\n    </div>\n\n    <!-- Bottom CTA -->\n    <div class=\"z-bottom\">\n      <p class=\"z-promise\">\n        2 gummies par jour = <span class=\"accent\">Liberté totale retrouvée</span>\n      </p>\n      \n      <!-- Trust badges -->\n      <div class=\"z-trust\" aria-label=\"Garanties produit\">\n        <span class=\"z-badge\">\n          <svg viewBox=\"0 0 20 20\" fill=\"none\"><path d=\"M4 10l4 4 8-8\" stroke=\"#2EC07D\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n          100% Vegan\n        </span>\n        <span class=\"z-badge\">\n          <svg viewBox=\"0 0 20 20\" fill=\"none\"><path d=\"M10 2l3 4 5 1-3.5 3.8.7 5.2L10 14.7 4.8 16.2l.7-5.2L2 7l5-1 3-4Z\" fill=\"none\" stroke=\"#D0926F\" stroke-width=\"1.5\"/></svg>\n          Sans sucre ajouté\n        </span>\n        <span class=\"z-badge\">\n          <svg viewBox=\"0 0 20 20\" fill=\"none\"><circle cx=\"10\" cy=\"10\" r=\"8\" stroke=\"#D0926F\" stroke-width=\"1.5\"/><path d=\"M6 10h8M10 6v8\" stroke=\"#D0926F\" stroke-width=\"1.5\"/></svg>\n          Sans gluten\n        </span>\n        <span class=\"z-badge\">\n          <svg viewBox=\"0 0 20 20\" fill=\"none\"><path d=\"M10 2v16M2 10h16\" stroke=\"#2EC07D\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>\n          Fabriqué en France\n        </span>\n      </div>\n      \n      <div class=\"z-guarantee\">\n        <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"currentColor\">\n          <path d=\"M10 2l7 3v5c0 4-2.5 7.4-7 9-4.5-1.6-7-5-7-9V5l7-3Z\" opacity=\"0.3\"/>\n          <path d=\"M7 10l2 2 4-4\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n        Satisfaite ou remboursée pendant 30 jours\n      </div>\n    </div>\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "image_with_text_overlay_UUfEHN": {
@@ -514,29 +513,14 @@
         "overlay_opacity": 30
       }
     },
-    "images_with_text_scrolling_e8A4jk": {
-      "type": "images-with-text-scrolling",
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "custom_liquid_gqJ8wK": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"margin: 0; padding: 0; text-align: center;\">\n\n<style>\n  .responsive-head {\n    text-align: center;\n    font-weight: normal;\n    font-size: 5vw;\nmargin: 1vw 0; /* Mobile par défaut */\n  }\n\n  @media (min-width: 768px) {\n    .responsive-head {\n      font-size: 2.5vw;\nmargin: 1vw 0; /* Desktop */\n    }\n  }\n</style>\n\n\n  <h1 class=\"responsive-head\">\n    <strong>{{ 'Des dents propres en 3 gestes simples' }}</strong>\n  </h1>\n</div>",
+        "liquid": "<div class=\"zel-hero-head\" style=\"margin:0; padding:0; text-align:center;\">\n  <style>\n    :root { --zel-accent:#E7434D; --zel-ink:#1f1f1f; }\n    .zel-title{\n      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, \"Helvetica Neue\", sans-serif;\n      color: var(--zel-ink);\n      font-weight: 900;\n      letter-spacing: -.02em;\n      line-height: 1.1;\n      font-size: clamp(24px, 2.8vw, 38px); /* même logique que la frise */\n      margin: 1vw 0; /* mobile & desktop */\n      text-align: center;\n    }\n    .zel-title span{ color: var(--zel-accent); }\n    /* Optionnel : aligner la largeur avec la frise */\n    .zel-hero-head .wrap { max-width:1100px; margin-inline:auto; padding:0 12px; }\n  </style>\n\n  <div class=\"wrap\">\n    <h1 class=\"zel-title\">\n      Approuvé par nos mamans : <span>fraîcheur et sérénité au quotidien.</span>\n    </h1>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -548,7 +532,7 @@
         "item_NzPWpw": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/etape.jpg",
+            "image": "shopify://shop_images/famille.jpg",
             "image_rotation_degrees": 15,
             "subheading": "",
             "title": "",
@@ -561,6 +545,7 @@
       "block_order": [
         "item_NzPWpw"
       ],
+      "disabled": true,
       "name": "Multiple images with text",
       "settings": {
         "full_width": true,
@@ -586,92 +571,85 @@
         "item_CJtnFP": {
           "type": "item",
           "settings": {
-            "title": "De quel matériau est fabriquée la tête de la brosse à dents et est-elle sans danger pour mon enfant ?",
-            "content": "<p>Tête en matière alimentaire certifiée – Réalisée en silicone de qualité alimentaire, le même matériau doux et sûr que celui des tétines de sucettes utilisées par les bébés . Conforme aux normes européennes (CE) et aux réglementations de sécurité alimentaire, 100% sans BPA, phtalates ni substances nocives. Testée en laboratoire pour garantir douceur, confort et sécurité pour les dents et gencives sensibles des enfants.</p>"
+            "title": "Cela peut-il aider avec les fibromes utérins ?",
+            "content": "<p>De nombreuses femmes atteintes de fibromes ont signalés moins de saignements, des cycles plus réguliers et même des grossesses après avoir utilisés nos gommes.Bien qu'il ne s'agisse pas d'un traitement médical, ils soutiennent l'équilibre hormonal - qui joue un rôle clé.</p>"
           }
         },
         "item_Yqbig9": {
           "type": "item",
           "settings": {
-            "title": "Pour quel âge la Zeloa est-elle adapté ?",
-            "content": "<p><strong>Zeloa brosse 360°– Conçu pour tous les âges</strong><br/>Parce que chaque enfant est unique, nous avons créé deux versions adaptées à leur âge et à leur sourire :</p><ul><li><strong>2 à 6 ans</strong> : Brosse toute douce avec puissance ultrasonique réduite et petit embout – parfaite pour les gencives sensibles des tout-petits.</li><li><strong>6 à 12 ans</strong> : Nettoyage plus puissant et embout en forme de U plus grand – idéal pour les besoins des enfants plus âgés.</li></ul><p>Un brossage sur mesure pour des dents propres et un sourire éclatant, à chaque étape de la croissance.</p>"
+            "title": "À qui s’adressent ces gummies ?",
+            "content": "<p>Ces gummies sont conçus pour toutes les femmes qui souhaitent prendre soin de leur confort intime, prévenir les inconforts urinaires et maintenir un bon équilibre vaginal au quotidien.</p>"
+          }
+        },
+        "item_adYg9V": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que c’est bon pour toutes les femmes ?",
+            "content": "<p>Absolument. Que vous souhaitiez prévenir les déséquilibres, limiter les inconforts ou juste<strong>prendre soin de votre féminité au quotidien</strong>, ces gummies sont faits pour vous.</p>"
           }
         },
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "La Zeloa nettoie-t-elle aussi efficacement qu’une brosse à dents ordinaire ?",
-            "content": "<p><strong>Oui – et même mieux qu’une brosse classique !</strong>Grâce à ses poils en silicone à 360° et ses vibrations ultrasoniques douces, <strong>Zeloa brosse 360° </strong>nettoie toutes les dents en même temps, en seulement 60 secondes.<br/>Plus rapide, plus complet et sans zones oubliées – il aide à prévenir efficacement les caries et protège les gencives, tout en rendant le brossage amusant pour les enfants.</p>"
+            "title": "En combien de temps puis-je ressentir les effets ?",
+            "content": "<p>Chaque femme est différente, mais beaucoup constatent une amélioration du confort intime après <strong>7 jours d’utilisation régulière</strong>. L’effet préventif se renforce avec la constance.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "La Zeloa respecte-t-elle les gencives et l’émail dentaire des enfants ?",
-            "content": "<p><strong>Absolument – et c’est prouvé !</strong><br/>Conçu en silicone souple de qualité médicale, la <strong>Zeloa brosse 360°</strong> utilise des vibrations ultrasoniques douces, recommandées par les dentistes pour enfants.<br/>Elle respecte l’émail en pleine formation et protège les gencives sensibles, tout en assurant un nettoyage complet et agréable.</p>"
+            "title": "Est-ce que ça remplace un traitement médical ?",
+            "content": "<p>Non. Les gummies ne remplacent pas un traitement médical. Ils sont une<strong>solution naturelle de prévention et de confort</strong>, mais en cas de problème persistant, consultez un professionnel de santé.</p>"
           }
         },
         "item_Mxpjfe": {
           "type": "item",
           "settings": {
-            "title": "Mon enfant va-t-il vraiment l’accepter facilement ?",
-            "content": "<p>Oui ! Sa matière douce type tétine et son design ludique transforment le brossage en moment de jeu, ce qui facilite grandement l’acceptation chez les jeunes enfants.</p>"
+            "title": "Puis-je en prendre pendant mes règles ?",
+            "content": "<p>Absolument. La prise est continue, <strong>même pendant les règles</strong>, pour maintenir un équilibre optimal de la flore vaginale.</p>"
           }
         },
         "item_RgPy4r": {
           "type": "item",
           "settings": {
-            "title": "La Zeloa est-elle étanche ?",
-            "content": "<p>Oui la <strong>Zeloa brosse 360°</strong> est étanche selon la norme IPX7.</p>"
+            "title": "Peut-on en prendre pendant la grossesse ou l’allaitement ?",
+            "content": "<p>Par précaution, nous recommandons de demander l’avis de votre médecin avant toute consommation pendant la grossesse ou l’allaitement.</p>"
           }
         },
         "item_gAXyKk": {
           "type": "item",
           "settings": {
-            "title": "Quelle autonomie offre la Zeloa ?",
-            "content": "<p><strong>Jusqu’à 7 jours d’autonomie avec une seule charge</strong>– idéal pour une utilisation quotidienne sans se soucier de la batterie.<br/>Recharge rapide et facile grâce au câble USB inclus.</p>"
+            "title": "Où sont fabriqués vos gummies ?",
+            "content": "<p>Nos produits sont fabriqués dans des <strong>laboratoires certifiés</strong>, avec un haut niveau de qualité et de sécurité.</p>"
           }
         },
         "item_8PikyL": {
           "type": "item",
           "settings": {
-            "title": "La Zeloa est-elle adaptée aux enfants portant un appareil dentaire ou suivant un autre traitement orthodontique ?",
-            "content": "<p><strong>Oui – et encore mieux qu’une brosse classique !</strong>Grâce à sa tête douce et flexible, la <strong>Zeloa brosse 360° </strong>nettoie efficacement autour et entre les bagues, là où une brosse traditionnelle a du mal à passer.<br/>Elle est parfaitement adaptée aux appareils dentaires, couronnes et facettes, tout en restant douce pour les dents et les gencives sensibles.</p>"
+            "title": "Pourquoi choisir ces gummies plutôt que des gélules ?",
+            "content": "<p>Parce qu’ils sont <strong>délicieux, pratiques et efficaces</strong> ! Plus besoin de se forcer à avaler des comprimés secs : ici, votre routine devient un petit moment plaisir, tout en prenant soin de votre intimité.</p>"
           }
         },
         "item_apEVnz": {
           "type": "item",
           "settings": {
-            "title": "Peut-on utiliser un dentifrice classique ?",
-            "content": "<p><strong>Oui !</strong><br/>Vous pouvez utiliser n’importe quel dentifrice classique.<br/>Pour un résultat optimal, appliquez une petite quantité uniformément sur l’embout avant de commencer le brossage.</p>"
+            "title": "Quelle est la posologie recommandée ?",
+            "content": "<p>La dose conseillée est de<strong>2 gummies par jour</strong>, à consommer à tout moment de la journée.</p>"
           }
         },
         "item_g3LeBN": {
           "type": "item",
           "settings": {
-            "title": "À quelle fréquence dois-je remplacer l’embout ?",
-            "content": "<p>Pour une hygiène et des performances optimales, nous recommandons de remplacer l’embout en silicone tous les 3 à 4 mois, comme pour une tête de brosse à dents classique.</p>"
-          }
-        },
-        "item_8MFwX6": {
-          "type": "item",
-          "settings": {
-            "title": "La Zeloa va-t-elle rendre mon enfant paresseux ?",
-            "content": "<p><strong>Pas du tout !</strong>La brosse à dents pour enfants encourage l’autonomie en rendant le brossage facile, efficace et amusant.<br/>Elle est parfaite pour instaurer de saines habitudes de brossage qui dureront toute la vie.</p>"
-          }
-        },
-        "item_fWk7j9": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce adapté aux enfants ayant des sensibilités ou des troubles sensoriels ?",
-            "content": "<p><strong>Oui – et elle change vraiment la donne !</strong>De nombreux parents ont constaté que notre brosse à dents pour enfants facilite le brossage chez les enfants présentant des sensibilités sensorielles, de l’autisme, du TDAH ou d’autres besoins spécifiques.<br/>Grâce à son design doux et à son fonctionnement agréable, elle transforme un moment parfois difficile en une routine simple, confortable et rassurante.</p>"
+            "title": "Quels sont les effets attendus ?",
+            "content": "<p>Une consommation régulière peut aider à <strong>réduire la fréquence des gênes urinaires</strong>, soutenir la flore vaginale et améliorer le confort intime général.</p>"
           }
         },
         "item_Aty3CL": {
           "type": "item",
           "settings": {
-            "title": "Qu'elle sont les pays de livraison?",
-            "content": "<p>Livraison disponible en France, Luxembourg, Suisse et Belgique</p>"
+            "title": "Qu'es-ce que rend Zeloa différent ?",
+            "content": "<p>La plupart de vos probiotiques ciblent votre intestin. Nous allons plus loin - avec des souches soutenus par la science qui soutiennent votre <strong>flore vaginal</strong>, votre <strong>santé de fertilité </strong>et votre <strong>équilibre hormonale. </strong>C'est pourquoi tant de femmes disent qu'elles ont récupérée leur règle... ou qu'elles sont tombés enceinte quand elle s'y attendaient le moins.</p>"
           }
         }
       },
@@ -679,6 +657,7 @@
         "item_4wy4yn",
         "item_CJtnFP",
         "item_Yqbig9",
+        "item_adYg9V",
         "166442457738b23caf-0",
         "166442457738b23caf-1",
         "item_Mxpjfe",
@@ -687,8 +666,6 @@
         "item_8PikyL",
         "item_apEVnz",
         "item_g3LeBN",
-        "item_8MFwX6",
-        "item_fWk7j9",
         "item_Aty3CL"
       ],
       "settings": {
@@ -725,13 +702,13 @@
         "contact_form_size": "large",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#181616",
         "heading_color": "",
         "heading_gradient": "",
         "contact_background": "",
         "contact_text_color": "#181616",
-        "button_background": "#f0c417",
-        "button_text_color": "#181616"
+        "button_background": "#eeb398",
+        "button_text_color": "#ffffff"
       }
     },
     "17547155264b9081e7": {
@@ -747,27 +724,23 @@
     },
     "17548419043ad4b515": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_ddNF8T": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_ddNF8T"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_gRKMUh": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- Zeloa – Carrousel d'avis — Trustpilot Stars + Lightbox + EXACTEMENT 2x 4★ -->\n<style>\n  .zeloa-reviews{position:relative}\n  /* Boutons navigation */\n  .zeloa-reviews .reviews-btn{\n    position:absolute;top:50%;transform:translateY(-50%);z-index:5;\n    background:#EEB398;border:none;color:#fff;border-radius:999px;width:40px;height:40px;cursor:pointer;\n    transition: all 0.2s ease;\n  }\n  .zeloa-reviews .reviews-btn:hover{\n    background:#D0926F;\n    transform:translateY(-50%) scale(1.05);\n  }\n  .zeloa-reviews .reviews-btn.prev{left:-4px}\n  .zeloa-reviews .reviews-btn.next{right:-4px}\n\n  .zeloa-reviews .reviews-viewport{overflow:hidden}\n  .zeloa-reviews .reviews-track{\n    display:flex;gap:16px;will-change:transform;touch-action:pan-y;scroll-behavior:auto;\n    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);\n  }\n\n  /* Cartes */\n  .zeloa-reviews .review-card{\n    min-width:280px;max-width:320px;flex:0 0 80%;\n    background:#fff;border-radius:14px;padding:12px 16px;margin:4px 0;\n    box-shadow:0 6px 18px rgba(0,0,0,.08);border:1px solid #f2f2f2;text-align:center;\n    transition: all 0.3s ease;\n    display:flex;flex-direction:column;justify-content:center;min-height:auto;\n  }\n  .zeloa-reviews .review-card.no-video{padding:10px 16px}\n  @media (min-width:480px){.zeloa-reviews .review-card{flex:0 0 320px}}\n\n  .zeloa-reviews .stars{display:flex;justify-content:center;margin-bottom:6px;line-height:1}\n  .zeloa-reviews .stars img{width:110px;height:22px;display:block}\n  .zeloa-reviews .meta{font-size:13px;color:#6B7280;display:flex;justify-content:center;gap:6px;margin-bottom:6px}\n  .zeloa-reviews .name{font-weight:600;color:#111}\n  .zeloa-reviews .comment{font-size:14px;color:#111;margin:6px 0 0;line-height:1.45}\n  .zeloa-reviews .review-card.no-video .comment{margin:6px 0 2px}\n\n  /* ✅ Cadre vidéo identique & responsive */\n  .zeloa-reviews .media-box{\n    position:relative;width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;margin-top:8px\n  }\n  .zeloa-reviews .media-box>video{\n    position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block\n  }\n  /* Bouton agrandir vidéo */\n  .zeloa-reviews .media-box .expand{\n    position:absolute;right:8px;top:8px;z-index:2;\n    background:#EEB398;color:#fff;border:none;border-radius:999px;\n    width:32px;height:32px;cursor:pointer;font-size:18px;line-height:32px;text-align:center;\n    transition: all 0.2s ease;\n  }\n  .zeloa-reviews .media-box .expand:hover{\n    background:#D0926F;\n    transform:scale(1.1);\n  }\n\n  /* 🔴 Badge thème — on garde le ROUGE d’origine */\n  .zeloa-reviews .flag{\n    display:inline-block;font-size:11px;color:#EA435E;background:#FFE8EC;\n    border:1px solid #FFD1DA;border-radius:999px;padding:2px 8px;margin-top:6px\n  }\n  .zeloa-reviews .review-card.no-video .flag{margin-top:4px}\n\n  /* Hover carte — palette EEB398 */\n  .zeloa-reviews .review-card:hover{\n    border-color:#EEB398;\n    box-shadow:0 8px 22px rgba(238,179,152,.15);\n    transform: translateY(-2px);\n  }\n\n  /* 🖼️ Lightbox vidéo */\n  .zeloa-video-lightbox{\n    position:fixed;inset:0;background:rgba(0,0,0,.85);\n    display:none;align-items:center;justify-content:center;z-index:9999;padding:20px\n  }\n  .zeloa-video-lightbox.open{display:flex}\n  .zeloa-video-lightbox .inner{\n    width:90vw;max-width:1000px;aspect-ratio:16/9;position:relative;background:#000;border-radius:12px;overflow:hidden\n  }\n  .zeloa-video-lightbox video{\n    position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000\n  }\n  .zeloa-video-lightbox .close{\n    position:absolute;top:10px;right:10px;background:#EEB398;\n    color:#fff;border:none;border-radius:999px;width:36px;height:36px;cursor:pointer;font-size:22px;\n    transition: all 0.2s ease;\n  }\n  .zeloa-video-lightbox .close:hover{\n    background:#D0926F;\n    transform:scale(1.1);\n  }\n\n  /* ⚪ Pagination */\n  .zeloa-reviews .dots{\n    display:flex;justify-content:center;gap:6px;margin-top:14px\n  }\n  .zeloa-reviews .dot{\n    width:10px;height:10px;border-radius:50%;background:#f1e2d6;cursor:pointer;transition:all 0.2s ease;\n  }\n  .zeloa-reviews .dot.active{background:#EEB398;transform:scale(1.2)}\n  .zeloa-reviews .dot:hover{background:#D0926F}\n</style>\n\n<!-- ⚙️ Paramètres -->\n<div class=\"zeloa-reviews\"\n     data-count=\"30\"\n     data-video1=\"https://cdn.shopify.com/videos/c/o/v/b36f1e3ff295453d9f6359c36b4db9c3.mp4\"\n     data-video2=\"https://cdn.shopify.com/videos/c/o/v/9f915bab514b463494ff00dfaebd85ff.mp4\"\n     data-video3=\"https://cdn.shopify.com/videos/c/o/v/019870fe79a24475a31b38aae71d8a9d.mp4\"\n     data-dots=\"12\"   <!-- optionnel : limite le nombre de points -->\n     aria-label=\"Avis clients\">\n  <button class=\"reviews-btn prev\" aria-label=\"Précédent\">‹</button>\n  <div class=\"reviews-viewport\" aria-live=\"polite\">\n    <div class=\"reviews-track\"></div>\n  </div>\n\n  <!-- Pagination -->\n  <div class=\"dots\" aria-label=\"Pagination des avis\"></div>\n\n  <button class=\"reviews-btn next\" aria-label=\"Suivant\">›</button>\n</div>\n\n<!-- Lightbox global -->\n<div class=\"zeloa-video-lightbox\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Vidéo\">\n  <div class=\"inner\">\n    <button class=\"close\" aria-label=\"Fermer\">×</button>\n  </div>\n</div>\n\n<script>\n(function(){\n  // URLs étoiles Trustpilot officielles\n  var STAR5 =  \"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg\";\n  var STAR4 =  \"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.svg\";\n\n  // Lightbox\n  var lb = document.querySelector('.zeloa-video-lightbox');\n  var lbInner = lb.querySelector('.inner');\n  var lbClose = lb.querySelector('.close');\n  function openLightbox(src){\n    document.querySelectorAll('.zeloa-reviews video').forEach(function(v){ try{v.pause();}catch(e){} });\n    var old = lbInner.querySelector('video');\n    if(old){ try{old.pause();}catch(e){} lbInner.removeChild(old); }\n    var v = document.createElement('video');\n    v.src = src; v.autoplay = true; v.muted = false; v.loop = false; v.controls = true; v.playsInline = true;\n    lbInner.appendChild(v);\n    lb.classList.add('open');\n    document.addEventListener('keydown', escClose);\n  }\n  function closeLightbox(){\n    var v = lbInner.querySelector('video');\n    if(v){ try{v.pause();}catch(e){} lbInner.removeChild(v); }\n    lb.classList.remove('open');\n    document.removeEventListener('keydown', escClose);\n  }\n  function escClose(e){ if(e.key === 'Escape'){ closeLightbox(); } }\n  lb.addEventListener('click', function(e){ if(e.target === lb){ closeLightbox(); } });\n  lbClose.addEventListener('click', closeLightbox);\n\n  // Init carrousels\n  document.querySelectorAll('.zeloa-reviews').forEach(function(root){\n    var track = root.querySelector('.reviews-track');\n    var dotsWrap = root.querySelector('.dots');\n\n    var VISIBLE_COUNT = parseInt(root.dataset.count || '30', 10);\n    var VIDEO_1_URL   = root.dataset.video1 || '';\n    var VIDEO_2_URL   = root.dataset.video2 || '';\n    var VIDEO_3_URL   = root.dataset.video3 || '';\n    var DOTS_LIMIT    = parseInt(root.dataset.dots || '0', 10); // 0 = 1 point par carte\n\n    function rand(a){return a[Math.floor(Math.random()*a.length)]}\n    function dateInLast(days){\n      var now=new Date(), past=new Date(now.getTime()-days*86400000);\n      var d=new Date(past.getTime()+Math.random()*(now-past));\n      return d.toLocaleDateString('fr-FR');\n    }\n    function esc(s){return String(s).replace(/[&<>\\\"']/g, function(m){return({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',\"'\":'&#39;'}[m])})}\n\n    // Données noms étendues\n    var names = [\"Sophie\",\"Camille\",\"Emma\",\"Chloé\",\"Sarah\",\"Laura\",\"Julie\",\"Élise\",\"Manon\",\"Claire\",\n                 \"Léa\",\"Charlotte\",\"Zoé\",\"Anaïs\",\"Inès\",\"Nina\",\"Valérie\",\"Isabelle\",\"Amélie\",\"Aurélie\",\n                 \"Mélanie\",\"Océane\",\"Amandine\",\"Caroline\",\"Céline\",\"Florence\",\"Lucie\",\"Morgane\",\"Noémie\",\"Pauline\",\n                 \"Ophélie\",\"Marion\",\"Louise\",\"Clara\",\"Gabrielle\",\"Maud\",\"Romane\",\"Jade\",\"Lina\",\"Alya\"];\n\n    // Textes originaux\n    var power_vaginal = [\n      \"Je n'osais plus m'approcher. Odeur intime persistante, gêne quotidienne. En 12 jours à 2 gummies/jour, odeur neutralisée, confiance retrouvée. Mon gynéco m'a parlé du microbiote vaginal : je sens l'équilibre revenir.\",\n      \"Mycoses récidivantes, pH instable, irritations. Avec 2 gummies/jour, confort revenu, sensations apaisées, pH plus stable. J'ose enfin des sous-vêtements serrés sans appréhension.\",\n      \"Après mon post-partum, tout avait changé: odeur, inconfort. Routine simple 2/jour: fraîcheur durable, flore apaisée. Mon mental respire autant que mon corps.\"\n    ];\n    var vaginal_strong = [\n      \"Odeur intime maîtrisée jusqu'au soir. Microbiote rééquilibré, moins d'irritations. 2 gummies/jour, simple et clair.\",\n      \"Sécheresse et gêne diminuées. pH physiologique plus stable, confort retrouvé.\",\n      \"Finis les moments de malaise pendant les câlins: fraîcheur et sérénité. Flore apaisée.\",\n      \"Moins d'inconfort après le sport. Je me sens saine, légère, alignée avec mon corps.\",\n      \"Équilibre intime revenu avant les règles. Je vis mes journées sans me poser mille questions.\"\n    ];\n    var vaginal_short = [\n      \"pH rééquilibré, flore apaisée.\",\n      \"Odeur neutralisée, confiance ++.\",\n      \"Confort intime durable, 2/jour.\"\n    ];\n    var digest_strong = [\n      \"Ballonnements en nette baisse, énergie plus stable. 2 gummies/jour, effets concrets.\",\n      \"Transit mieux régulé, moins d'acidité. Je mange sereinement.\",\n      \"Ventre apaisé la 1re semaine, sommeil plus profond.\"\n    ];\n    var digest_short = [\n      \"Digestion fluide, zéro gêne.\",\n      \"Plus légère après les repas.\"\n    ];\n\n    // Nouveaux avis envoyés\n    var nouveaux_avis = [\n      {name: \"Sophie L.\", comment: \"Avec Zeloa, c'est devenu un vrai plaisir. Le goût cranberry est délicieux et je n'oublie plus jamais ma dose. Résultats visibles dès la première semaine.\", topic: \"vaginal\"},\n      {name: \"Camille R.\", comment: \"Ces gummies ont changé ma vie. Plus d'angoisse permanente, je me sens enfin légère et confiante.\", topic: \"vaginal\"},\n      {name: \"Élodie M.\", comment: \"Avec les gummies, c'est simple et agréable. Mon confort intime est revenu, et je n'ai plus de déséquilibre.\", topic: \"vaginal\"},\n      {name: \"Julie C.\", comment: \"Impossible avec Zeloa. Non seulement ça se prend facilement, mais je me sens beaucoup mieux après 10 jours.\", topic: \"vaginal\"},\n      {name: \"Anaïs P.\", comment: \"Résultat bluffant. En 7 jours j'ai retrouvé ma sérénité et ma confiance.\", topic: \"vaginal\"},\n      {name: \"Manon G.\", comment: \"Les gummies sont addictives, je n'oublie jamais. Et je sens vraiment la différence.\", topic: \"vaginal\"},\n      {name: \"Laura D.\", comment: \"Depuis que j'ai commencé Zeloa, tout est revenu à la normale. Je respire enfin.\", topic: \"vaginal\"},\n      {name: \"Clara V.\", comment: \"Avec ces gummies, c'est juste une habitude plaisir. Et mon équilibre intime est top.\", topic: \"vaginal\"},\n      {name: \"Inès F.\", comment: \"Plus rien à voir maintenant. Je bouge librement et je me sens bien.\", topic: \"vaginal\"},\n      {name: \"Léa B.\", comment: \"Impossible avec Zeloa ! Le goût cranberry est tellement bon que j'attends mon moment.\", topic: \"digest\"},\n      {name: \"Chloé S.\", comment: \"Mais dès la première semaine, j'ai senti un vrai changement. Ultra satisfaite.\", topic: \"vaginal\"},\n      {name: \"Ophélie K.\", comment: \"Maintenant, c'est simple : deux gummies par jour et fini les soucis.\", topic: \"vaginal\"},\n      {name: \"Mélanie T.\", comment: \"Tout est beaucoup plus léger aujourd'hui. J'ai repris confiance dans mon corps.\", topic: \"digest\"},\n      {name: \"Aurélie N.\", comment: \"Avec les gummies, je ne saute jamais une prise. Et j'adore le goût.\", topic: \"digest\"},\n      {name: \"Sarah J.\", comment: \"Aujourd'hui je me sens libre, à l'aise et confiante. Zeloa fait clairement la différence.\", topic: \"vaginal\"}\n    ];\n\n    // ---- Composer les avis\n    var videoUrls = [root.dataset.video1, root.dataset.video2, root.dataset.video3].filter(Boolean);\n    var reviews = [];\n\n    // 3 premiers = vidéos 5★\n    for (var i=0;i<Math.min(3, videoUrls.length); i++){\n      reviews.push({ rating:5, topic:\"vaginal\", comment: power_vaginal[i % power_vaginal.length], video: videoUrls[i] });\n    }\n    // Ajouter les nouveaux avis (5★)\n    for (var j=0; j<nouveaux_avis.length; j++) {\n      reviews.push({\n        rating: 5,\n        topic: nouveaux_avis[j].topic,\n        comment: nouveaux_avis[j].comment,\n        customName: nouveaux_avis[j].name\n      });\n    }\n    // Remplir jusqu'à (VISIBLE_COUNT - 2) pour garder 2 places aux 4★\n    while (reviews.length < (VISIBLE_COUNT - 2)) {\n      var p = Math.random();\n      if (p < 0.6) {\n        reviews.push({rating:5, topic:\"vaginal\", comment: rand(vaginal_strong)});\n      } else if (p < 0.8) {\n        reviews.push({rating:5, topic:\"vaginal\", comment: rand(vaginal_short) + \" 2 gummies/jour.\"});\n      } else {\n        reviews.push({rating:5, topic:\"digest\", comment: rand(digest_strong)});\n      }\n    }\n    // Créer 2 avis en 4★\n    var fourStar1 = {rating:4, topic:\"vaginal\", comment: \"Résultats visibles mais j'aurais aimé encore plus de parfums. Confort intime mieux, pH plus stable.\"};\n    var fourStar2 = {rating:4, topic:\"digest\",  comment: \"Très bien pour la digestion, un peu cher mais efficace. Je reste à 2/jour.\"};\n    // Insérer à des positions non initiales\n    var pos1 = Math.min(8, reviews.length);\n    reviews.splice(pos1, 0, fourStar1);\n    var pos2 = Math.min(16, reviews.length+1);\n    reviews.splice(pos2, 0, fourStar2);\n    // Tronquer\n    reviews = reviews.slice(0, VISIBLE_COUNT);\n\n    // Render\n    var finalReviews = reviews.map(function(r){\n      return {\n        name: r.customName || (rand(names) + \" \" + rand([\"A.\",\"B.\",\"C.\",\"D.\",\"F.\",\"G.\",\"L.\",\"M.\",\"P.\",\"R.\",\"S.\",\"T.\",\"V.\"])),\n        date: dateInLast(60),\n        rating: r.rating,\n        topic: r.topic,\n        comment: r.comment,\n        video: r.video || null\n      };\n    });\n\n    finalReviews.forEach(function(r, index){\n      var card = document.createElement('div');\n      card.className = 'review-card' + (r.video ? '' : ' no-video');\n      card.style.animationDelay = (index * 0.05) + 's';\n      var topicFlag = r.topic === \"vaginal\" ? \"Flore vaginale & pH · 2 gummies/jour\" : \"Digestion & énergie · 2 gummies/jour\";\n      var starSrc   = (r.rating >= 5) ? STAR5 : STAR4;\n      var ariaTxt   = (r.rating >= 5) ? \"5 sur 5\" : \"4 sur 5\";\n\n      card.innerHTML = ''\n        + '<div class=\"stars\" aria-label=\"'+ariaTxt+'\">'\n        +   '<img src=\"'+starSrc+'\" alt=\"Évaluation '+ariaTxt+'\" loading=\"lazy\">'\n        + '</div>'\n        + '<div class=\"meta\">'\n        +   '<span class=\"name\">'+esc(r.name)+'</span>'\n        +   '<span class=\"dot\">•</span>'\n        +   '<span class=\"date\">'+esc(r.date)+'</span>'\n        + '</div>'\n        + '<span class=\"flag\">'+esc(topicFlag)+'</span>'\n        + '<p class=\"comment\">'+esc(r.comment)+'</p>'\n        + (r.video ? (\n            '<div class=\"media-box\">'\n          +   '<button class=\"expand\" aria-label=\"Agrandir la vidéo\">⤢</button>'\n          +   '<video src=\"'+esc(r.video)+'\" autoplay muted loop playsinline></video>'\n          + '</div>'\n        ) : '');\n      track.appendChild(card);\n    });\n\n    // Lightbox au clic\n    track.addEventListener('click', function(e){\n      var btn = e.target.closest('.expand');\n      if(btn){\n        var v = btn.parentElement.querySelector('video');\n        if(v && v.src){ openLightbox(v.src); }\n        return;\n      }\n      if(e.target.tagName === 'VIDEO'){\n        openLightbox(e.target.currentSrc || e.target.src);\n      }\n    });\n\n    // Carousel\n    var prevBtn = root.querySelector('.prev');\n    var nextBtn = root.querySelector('.next');\n    var gap = 16;\n    var index = 0;\n    var isTransitioning = false;\n\n    function cardWidth(){\n      var first = track.querySelector('.review-card');\n      return first ? first.getBoundingClientRect().width : 320;\n    }\n\n    // Pagination par points\n    var dots = [];\n    function buildDots(){\n      // Nettoyer\n      dotsWrap.innerHTML = '';\n      var total = finalReviews.length;\n      var maxDots = (DOTS_LIMIT && DOTS_LIMIT > 0) ? Math.min(DOTS_LIMIT, total) : total;\n      if (maxDots < 1) maxDots = 1;\n\n      for (var i=0; i<maxDots; i++){\n        var d = document.createElement('span');\n        d.className = 'dot';\n        d.setAttribute('role','button');\n        d.setAttribute('aria-label','Aller à l’élément '+(i+1));\n        (function(di){\n          d.addEventListener('click', function(){\n            var target = (maxDots === 1) ? 0 : Math.round(di*(total-1)/(maxDots-1));\n            moveTo(target);\n          });\n        })(i);\n        dotsWrap.appendChild(d);\n        dots.push(d);\n      }\n      updateDots();\n    }\n\n    function updateDots(){\n      if(!dots.length) return;\n      var total = finalReviews.length;\n      var maxDots = dots.length;\n      var activeDot = (maxDots === 1) ? 0 : Math.round(index*(maxDots-1)/(total-1));\n      dots.forEach(function(el, i){ el.classList.toggle('active', i === activeDot); });\n    }\n\n    function moveTo(i){\n      if(isTransitioning) return;\n      var maxIndex = finalReviews.length - 1;\n      isTransitioning = true;\n      index = Math.max(0, Math.min(i, maxIndex));\n      var w = cardWidth()+gap;\n      track.style.transform = 'translateX(' + (-index*w) + 'px)';\n      // Mettre à jour boutons\n      prevBtn.style.opacity = index === 0 ? '0.5' : '1';\n      nextBtn.style.opacity = index >= maxIndex ? '0.5' : '1';\n      prevBtn.style.pointerEvents = index === 0 ? 'none' : 'auto';\n      nextBtn.style.pointerEvents = index >= maxIndex ? 'none' : 'auto';\n      updateDots();\n      setTimeout(function(){ isTransitioning = false; }, 400);\n    }\n\n    prevBtn.addEventListener('click', function(){ if(index > 0) moveTo(index-1); });\n    nextBtn.addEventListener('click', function(){ if(index < finalReviews.length - 1) moveTo(index+1); });\n    window.addEventListener('resize', function(){ moveTo(index); });\n\n    // Swipe\n    var startX=null,delta=0;\n    track.addEventListener('pointerdown', function(e){\n      startX=e.clientX;\n      track.style.transition = 'none';\n      track.setPointerCapture(e.pointerId);\n    });\n    track.addEventListener('pointermove', function(e){\n      if(startX!==null){\n        delta=e.clientX-startX;\n        track.style.transform='translateX(' + (-index*(cardWidth()+gap)+delta) + 'px)';\n      }\n    });\n    track.addEventListener('pointerup', function(){\n      if(startX!==null){\n        track.style.transition = '';\n        if(delta<-50 && index < finalReviews.length - 1) moveTo(index+1);\n        else if(delta>50 && index > 0) moveTo(index-1);\n        else moveTo(index);\n        startX=null; delta=0;\n      }\n    });\n\n    // Navigation clavier\n    root.addEventListener('keydown', function(e){\n      if(e.key === 'ArrowLeft' && index > 0) moveTo(index-1);\n      if(e.key === 'ArrowRight' && index < finalReviews.length - 1) moveTo(index+1);\n    });\n\n    // Pause vidéos hors écran\n    var viewport = root.querySelector('.reviews-viewport');\n    var io = new IntersectionObserver(function(entries){\n      entries.forEach(function(entry){\n        var vids = entry.target.querySelectorAll('video');\n        vids.forEach(function(v){\n          if(entry.isIntersecting && entry.intersectionRatio > 0.5){\n            v.play().catch(function(){});\n          } else {\n            v.pause();\n          }\n        });\n      });\n    },{root:viewport,threshold:[0,0.5,1]});\n    new MutationObserver(function(){\n      track.querySelectorAll('.review-card').forEach(function(c){ io.observe(c); });\n    }).observe(track,{childList:true});\n\n    // Animation d'entrée\n    var style = document.createElement('style');\n    style.textContent = '@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.review-card{animation:fadeIn 0.5s ease forwards;opacity:0}';\n    document.head.appendChild(style);\n\n    // Build & go\n    buildDots();\n    moveTo(0);\n  });\n})();\n</script>\n<!-- /Zeloa – Carrousel d'avis -->",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -778,21 +751,23 @@
     "image_with_text_overlay_ezUjx3",
     "logo_list_aLUhq4",
     "custom_liquid_gLtWJM",
-    "before_after_image_MbaaWq",
-    "multi_column_HcAbgD",
     "custom_liquid_Dd8zDM",
+    "image_with_text_overlay_7LfXbx",
+    "before_after_image_TcNmFp",
+    "custom_liquid_A4yXaa",
+    "multi_column_HcAbgD",
+    "custom_html_heeJfi",
     "featured_product_nyKfgC",
     "1754715508d43cdc4d",
     "tabs_cYdcCh",
-    "custom_liquid_AtwcUd",
-    "image_with_text_overlay_7LfXbx",
+    "custom_liquid_gfVMqf",
     "image_with_text_overlay_UUfEHN",
-    "images_with_text_scrolling_e8A4jk",
     "custom_liquid_gqJ8wK",
     "multiple_images_with_text_iqjDYF",
     "faq",
     "contact_4eMBiX",
     "17547155264b9081e7",
-    "17548419043ad4b515"
+    "17548419043ad4b515",
+    "custom_liquid_gRKMUh"
   ]
 }
