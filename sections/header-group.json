@@ -56,7 +56,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#7597cd",
+        "background": "#b8860b",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -66,7 +66,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
-        "logo": "shopify://shop_images/logo_zeloa_grand.png",
+        "logo": "shopify://shop_images/logo.png",
         "logo_max_width": 160,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
