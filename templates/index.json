@@ -17,8 +17,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/haut_site.png",
-        "mobile_image": "shopify://shop_images/haut_site.png",
+        "image": "shopify://shop_images/page_tete.png",
+        "mobile_image": "shopify://shop_images/page_tete.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
@@ -91,7 +91,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"benefits-intro-section\">\n  <h2 class=\"benefits-intro-title\">\n    Voici comment ce sérum remplace votre armoire à cosmétiques :\n  </h2>\n</div>\n\n<style>\n.benefits-intro-section {\n  text-align: center;\n  margin: 40px 0 30px 0;\n  padding: 0 20px;\n}\n\n.benefits-intro-title {\n  font-family: 'Montserrat', sans-serif;\n  font-size: 28px;\n  font-weight: 600;\n  color: #2F2F2F;\n  line-height: 1.3;\n  margin: 0;\n  letter-spacing: -0.5px;\n}\n\n/* Responsive */\n@media (max-width: 768px) {\n  .benefits-intro-title {\n    font-size: 22px;\n    line-height: 1.4;\n  }\n  \n  .benefits-intro-section {\n    margin: 30px 0 20px 0;\n    padding: 0 15px;\n  }\n}\n\n@media (max-width: 480px) {\n  .benefits-intro-title {\n    font-size: 20px;\n  }\n}\n</style>",
+        "liquid": "<div class=\"benefits-intro-section\">\n  <h2 class=\"benefits-intro-title\">\n    Le soin unique aux multiples bienfaits\n  </h2>\n</div>\n\n<style>\n.benefits-intro-section {\n  text-align: center;\n  margin: 40px 0 30px 0;\n  padding: 0 20px;\n}\n\n.benefits-intro-title {\n  font-family: 'Montserrat', sans-serif;\n  font-size: 28px;\n  font-weight: 600;\n  color: #2F2F2F;\n  line-height: 1.3;\n  margin: 0;\n  letter-spacing: -0.5px;\n}\n\n/* Responsive */\n@media (max-width: 768px) {\n  .benefits-intro-title {\n    font-size: 22px;\n    line-height: 1.4;\n  }\n  \n  .benefits-intro-section {\n    margin: 30px 0 20px 0;\n    padding: 0 15px;\n  }\n}\n\n@media (max-width: 480px) {\n  .benefits-intro-title {\n    font-size: 20px;\n  }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -163,10 +163,10 @@
         "subheading": "",
         "title": "Avant/Après",
         "content": "",
-        "before_image": "shopify://shop_images/image_gauche_600x600_7286f6bd-2783-44a4-8802-3c03a06427f6.jpg",
-        "before_image_mobile": "shopify://shop_images/image_gauche_600x600_7286f6bd-2783-44a4-8802-3c03a06427f6.jpg",
-        "after_image": "shopify://shop_images/image_droite_600x600_955981fa-25a5-47b2-b64f-318f252c9aab.jpg",
-        "after_image_mobile": "shopify://shop_images/image_droite_600x600_955981fa-25a5-47b2-b64f-318f252c9aab.jpg",
+        "before_image": "shopify://shop_images/image_gauche_600x600_ccd33f06-6ef0-452d-9620-7b294de71348.jpg",
+        "before_image_mobile": "shopify://shop_images/image_gauche_600x600_ccd33f06-6ef0-452d-9620-7b294de71348.jpg",
+        "after_image": "shopify://shop_images/image_droite_600x600_2ac175d8-de0f-4a51-b233-c7719b886b63.jpg",
+        "after_image_mobile": "shopify://shop_images/image_droite_600x600_2ac175d8-de0f-4a51-b233-c7719b886b63.jpg",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
@@ -198,19 +198,6 @@
     "multi_column_HcAbgD": {
       "type": "multi-column",
       "blocks": {
-        "item_39JEcB": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/image_2000x1414_a7bccfe5-3972-4eb3-b67d-d2adf68c63b7.jpg",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>Alicia R.</strong></p><p>Ma fille m'a demandé si j'avais fait du botox. Non, juste ce sérum.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_LY8UGy": {
           "type": "item",
           "settings": {
@@ -219,6 +206,19 @@
             "title": "",
             "heading_tag": "h4",
             "content": "<p><strong>Sarah M.</strong></p><p>4 semaines et mes rides ont fondu. J'ai jeté mes 4 autres crèmes.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_39JEcB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avant.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Alicia R.</strong></p><p>Ma fille m'a demandé si j'avais fait du botox. Non, juste ce sérum.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -265,8 +265,8 @@
         }
       },
       "block_order": [
-        "item_39JEcB",
         "item_LY8UGy",
+        "item_39JEcB",
         "item_3aHNRK",
         "item_gfX6kg",
         "item_KUbdhB"
@@ -737,7 +737,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "#f0f0f0",
+        "background": "#f8f6f3",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -764,8 +764,8 @@
         "heading_color": "",
         "heading_gradient": "",
         "contact_background": "",
-        "contact_text_color": "#181616",
-        "button_background": "#eeb398",
+        "contact_text_color": "#2f2f2f",
+        "button_background": "#b8860b",
         "button_text_color": "#ffffff"
       }
     },
