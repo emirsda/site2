@@ -91,7 +91,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"zel-hero-head\" style=\"margin:0; padding:0; text-align:center;\">\n  <style>\n    :root { \n      --zel-accent:#EEB398;   /* couleur accent */\n      --zel-ink:#1f1f1f;      /* texte en noir */\n    }\n    .zel-title{\n      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, \"Helvetica Neue\", sans-serif;\n      color: var(--zel-ink);\n      font-weight: 700; /* semi-bold, moins épais que 900 */\n      letter-spacing: -.02em;\n      line-height: 1.1;\n      font-size: clamp(24px, 2.8vw, 38px);\n      margin: 1vw 0;\n      text-align: center;\n    }\n    .zel-title span{ color: var(--zel-accent); }\n  </style>\n\n  <h1 class=\"zel-title\">\n    Ta <span>tranquillité d'esprit</span> quotidienne\n  </h1>\n</div>",
+        "liquid": "<div class=\"benefits-intro-section\">\n  <h2 class=\"benefits-intro-title\">\n    Voici comment ce sérum remplace votre armoire à cosmétiques :\n  </h2>\n</div>\n\n<style>\n.benefits-intro-section {\n  text-align: center;\n  margin: 40px 0 30px 0;\n  padding: 0 20px;\n}\n\n.benefits-intro-title {\n  font-family: 'Montserrat', sans-serif;\n  font-size: 28px;\n  font-weight: 600;\n  color: #2F2F2F;\n  line-height: 1.3;\n  margin: 0;\n  letter-spacing: -0.5px;\n}\n\n/* Responsive */\n@media (max-width: 768px) {\n  .benefits-intro-title {\n    font-size: 22px;\n    line-height: 1.4;\n  }\n  \n  .benefits-intro-section {\n    margin: 30px 0 20px 0;\n    padding: 0 15px;\n  }\n}\n\n@media (max-width: 480px) {\n  .benefits-intro-title {\n    font-size: 20px;\n  }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -163,6 +163,10 @@
         "subheading": "",
         "title": "Avant/Après",
         "content": "",
+        "before_image": "shopify://shop_images/image_gauche_600x600_7286f6bd-2783-44a4-8802-3c03a06427f6.jpg",
+        "before_image_mobile": "shopify://shop_images/image_gauche_600x600_7286f6bd-2783-44a4-8802-3c03a06427f6.jpg",
+        "after_image": "shopify://shop_images/image_droite_600x600_955981fa-25a5-47b2-b64f-318f252c9aab.jpg",
+        "after_image_mobile": "shopify://shop_images/image_droite_600x600_955981fa-25a5-47b2-b64f-318f252c9aab.jpg",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
@@ -175,7 +179,7 @@
         "before_text_color": "#ffffff",
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#181616"
+        "drag_cursor_color": "#2f2f2f"
       }
     },
     "custom_liquid_A4yXaa": {
@@ -197,10 +201,11 @@
         "item_39JEcB": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/image_2000x1414_a7bccfe5-3972-4eb3-b67d-d2adf68c63b7.jpg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Alicia R.</strong></p><p>Mon bonheur a étais retrouvé, et surtout celui de mon copain j'en suis tellement fière. JE RECOMMANDE CLAIREMENT. Les gummies s'adapte tellement a ma routine.</p>",
+            "content": "<p><strong>Alicia R.</strong></p><p>Ma fille m'a demandé si j'avais fait du botox. Non, juste ce sérum.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -209,10 +214,11 @@
         "item_LY8UGy": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/avant_apres.jpg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Anais K.</strong></p><p>C'est devenue tellement une satisfaction d'être tant alaise depuis que j'utilise ces gummies. C'est tellement simple a prendre et surtout si impactant pour mon bien être personnelle. Délais de livraison un peu plus lent que prévue.</p>",
+            "content": "<p><strong>Sarah M.</strong></p><p>4 semaines et mes rides ont fondu. J'ai jeté mes 4 autres crèmes.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -221,10 +227,11 @@
         "item_3aHNRK": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/avant_apres_3.jpg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Layna D.</strong></p><p>J’avais tout essayé, poudres et gélules, mais je ne tenais jamais mes cures. Avec les gummies Zeloa, c’est devenu un plaisir quotidien. Résultat : fini les odeurs, fini les tabous. Je me sens confiante à nouveau.</p>",
+            "content": "<p><strong>Layna D.</strong></p><p>Enfin un produit qui tient ses promesses. Ma table de nuit me dit merci.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -232,6 +239,7 @@
         },
         "item_gfX6kg": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "column_size": "3",
             "title": "",
@@ -244,6 +252,7 @@
         },
         "item_KUbdhB": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "column_size": "3",
             "title": "",
