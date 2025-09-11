@@ -17,8 +17,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/site.png",
-        "mobile_image": "shopify://shop_images/site.png",
+        "image": "shopify://shop_images/haut_site.png",
+        "mobile_image": "shopify://shop_images/haut_site.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
@@ -37,14 +37,6 @@
             "link": ""
           }
         },
-        "logo_bGUgJr": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/logo_madame_figare-removebg-preview.png",
-            "logo_width": 290,
-            "link": ""
-          }
-        },
         "logo_TBEEDd": {
           "type": "logo",
           "settings": {
@@ -60,18 +52,26 @@
             "logo_width": 200,
             "link": ""
           }
+        },
+        "logo_bGUgJr": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_madame_figare-removebg-preview.png",
+            "logo_width": 290,
+            "link": ""
+          }
         }
       },
       "block_order": [
         "logo_iMhVMP",
-        "logo_bGUgJr",
         "logo_TBEEDd",
-        "logo_HRPg6a"
+        "logo_HRPg6a",
+        "logo_bGUgJr"
       ],
       "name": "Logo list",
       "settings": {
         "full_width": false,
-        "stack_mobile": true,
+        "stack_mobile": false,
         "title": "Vu sur:",
         "content": "",
         "text_alignment": "center",
@@ -337,7 +337,7 @@
         "liquid_k4mmhy": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p style=\"text-align:center; margin-top:12px; color:#EA435E; font-size:13px; font-weight:500;\">\n  <span style=\"opacity:0.8;\">Livré en</span> <strong>9 jours</strong> <span style=\"opacity:0.8;\">• Emballage neutre</span>\n</p>"
+            "liquid": "<p style=\"text-align:center; margin-top:12px; color:#2F2F2F; font-size:13px; font-weight:500;\">\n  <span style=\"opacity:0.8;\">Livré en</span> <strong style=\"color:#B8860B;\">9 jours</strong> <span style=\"opacity:0.8;\">• Emballage neutre</span>\n</p>"
           }
         },
         "quantity_selector_kGXk3x": {
@@ -358,7 +358,7 @@
         "liquid_khiYr6": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n.zeloa-trust-badges {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n  margin: 20px 0;\n}\n\n.zeloa-trust-item {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  padding: 8px 0;\n}\n\n.zeloa-trust-icon {\n  width: 20px;\n  height: 20px;\n  background: #E7434D;\n  color: white;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  font-weight: 700;\n  flex-shrink: 0;\n}\n\n.zeloa-trust-text {\n  font-size: 15px;\n  font-weight: 600;\n  color: #1f1f1f;\n  line-height: 1.3;\n}\n\n@media (max-width: 480px) {\n  .zeloa-trust-text {\n    font-size: 14px;\n  }\n}\n</style>\n\n<div class=\"zeloa-trust-badges\">\n  <div class=\"zeloa-trust-item\">\n    <div class=\"zeloa-trust-icon\">🏆</div>\n    <div class=\"zeloa-trust-text\">La solution préférée des femmes européennes</div>\n  </div>\n  \n  <div class=\"zeloa-trust-item\">\n    <div class=\"zeloa-trust-icon\">✓</div>\n    <div class=\"zeloa-trust-text\">Rééquilibre ta flore sans effort</div>\n  </div>\n  \n  <div class=\"zeloa-trust-item\">\n    <div class=\"zeloa-trust-icon\">✓</div>\n    <div class=\"zeloa-trust-text\">Ta routine plaisir quotidienne</div>\n  </div>\n  \n  <div class=\"zeloa-trust-item\">\n    <div class=\"zeloa-trust-icon\">✓</div>\n    <div class=\"zeloa-trust-text\">Ton bouclier anti-inconforts</div>\n  </div>\n</div>"
+            "liquid": "<style>\n.kyreo-trust-badges {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n  margin: 20px 0;\n}\n.kyreo-trust-item {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  padding: 8px 0;\n}\n.kyreo-trust-icon {\n  width: 20px;\n  height: 20px;\n  background: #B8860B;\n  color: white;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 12px;\n  font-weight: 700;\n  flex-shrink: 0;\n}\n.kyreo-trust-text {\n  font-size: 15px;\n  font-weight: 600;\n  color: #2F2F2F;\n  line-height: 1.3;\n}\n@media (max-width: 480px) {\n  .kyreo-trust-text {\n    font-size: 14px;\n  }\n}\n</style>\n\n<div class=\"kyreo-trust-badges\">\n  <div class=\"kyreo-trust-item\">\n    <div class=\"kyreo-trust-icon\">🏆</div>\n    <div class=\"kyreo-trust-text\">Le sérum préféré des femmes françaises</div>\n  </div>\n  \n  <div class=\"kyreo-trust-item\">\n    <div class=\"kyreo-trust-icon\">✓</div>\n    <div class=\"kyreo-trust-text\">Remplace vos 5 crèmes anti-âge</div>\n  </div>\n  \n  <div class=\"kyreo-trust-item\">\n    <div class=\"kyreo-trust-icon\">✓</div>\n    <div class=\"kyreo-trust-text\">Votre routine beauté simplifiée</div>\n  </div>\n  \n  <div class=\"kyreo-trust-item\">\n    <div class=\"kyreo-trust-icon\">✓</div>\n    <div class=\"kyreo-trust-text\">Votre allié anti-rides quotidien</div>\n  </div>\n</div>"
           }
         },
         "pickup_availability_hfnTka": {
@@ -368,7 +368,7 @@
         "liquid_aBrLDx": {
           "type": "liquid",
           "settings": {
-            "liquid": "{%- comment -%} Badges de confiance — section fixe sous le bouton panier {%- endcomment -%}\n<div class=\"z-trust-row\" role=\"group\" aria-label=\"Garanties de la boutique\">\n  <style>\n    :root{\n      --z-accent:#E7434D;  /* Couleur marque */\n      --z-ink:#1f1f1f;     /* Texte */\n    }\n    .z-trust-row{\n      display:flex; align-items:center; justify-content:center; flex-wrap:wrap;\n      gap:12px; margin-top:12px; background:transparent;\n      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, \"Helvetica Neue\", sans-serif;\n    }\n    .z-trust-item{\n      display:flex; align-items:center; gap:8px;\n      color:var(--z-ink); font-weight:800; font-size:13.5px; white-space:nowrap;\n    }\n    .z-trust-ico{ width:18px; height:18px; flex:0 0 18px; }\n    .z-trust-ico *{ stroke:var(--z-accent); }\n    .z-trust-sep{ width:1px; height:16px; background:var(--z-accent); opacity:.35; }\n    /* Mobile : ultra clean, sans séparateurs verticaux */\n    @media (max-width:540px){\n      .z-trust-row{ justify-content:flex-start; gap:10px; }\n      .z-trust-sep{ display:none; }\n      .z-trust-item{ font-size:13px; }\n    }\n  </style>\n\n  <!-- Paiement sécurisé -->\n  <div class=\"z-trust-item\" aria-label=\"Paiement sécurisé\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <path d=\"M12 3l7 3v5c0 4.5-2.8 8.6-7 10-4.2-1.4-7-5.5-7-10V6l7-3Z\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/>\n      <path d=\"M9.5 12v-1.2a2.5 2.5 0 1 1 5 0V12\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n      <path d=\"M9.5 12h5v4.2h-5V12Z\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span>Paiement sécurisé</span>\n  </div>\n\n  <span class=\"z-trust-sep\" aria-hidden=\"true\"></span>\n\n  <!-- Livraison offerte -->\n  <div class=\"z-trust-item\" aria-label=\"Livraison offerte\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <rect x=\"2\" y=\"7\" width=\"12\" height=\"7\" rx=\"1.5\" stroke-width=\"1.6\"/>\n      <path d=\"M14 9h4l3 3v2h-3.3\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <circle cx=\"8\" cy=\"18\" r=\"2\" stroke-width=\"1.6\"/>\n      <circle cx=\"19\" cy=\"18\" r=\"2\" stroke-width=\"1.6\"/>\n    </svg>\n    <span>Livraison offerte</span>\n  </div>\n\n  <span class=\"z-trust-sep\" aria-hidden=\"true\"></span>\n\n  <!-- Satisfait ou remboursé -->\n  <div class=\"z-trust-item\" aria-label=\"Satisfait ou remboursé\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <path d=\"M12 3a9 9 0 1 0 9 9\" stroke-width=\"1.6\"/>\n      <polyline points=\"16,3 21,3 21,8\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <polyline points=\"7,12 10.5,15.5 17,9\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span>Satisfait ou remboursé</span>\n  </div>\n</div>"
+            "liquid": "{%- comment -%} Badges de confiance — section fixe sous le bouton panier {%- endcomment -%}\n<div class=\"z-trust-row\" role=\"group\" aria-label=\"Garanties de la boutique\">\n  <style>\n    :root{\n      --z-accent:#B8860B;  /* Couleur marque (or discret) */\n      --z-ink:#2F2F2F;     /* Texte (gris charbon) */\n    }\n    .z-trust-row{\n      display:flex; align-items:center; justify-content:center; flex-wrap:wrap;\n      gap:12px; margin-top:12px; background:transparent;\n      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, \"Helvetica Neue\", sans-serif;\n    }\n    .z-trust-item{\n      display:flex; align-items:center; gap:8px;\n      color:var(--z-ink); font-weight:800; font-size:13.5px; white-space:nowrap;\n    }\n    .z-trust-ico{ width:18px; height:18px; flex:0 0 18px; }\n    .z-trust-ico *{ stroke:var(--z-accent); }\n    .z-trust-sep{ width:1px; height:16px; background:var(--z-accent); opacity:.35; }\n    /* Mobile : ultra clean, sans séparateurs verticaux */\n    @media (max-width:540px){\n      .z-trust-row{ justify-content:flex-start; gap:10px; }\n      .z-trust-sep{ display:none; }\n      .z-trust-item{ font-size:13px; }\n    }\n  </style>\n  <!-- Paiement sécurisé -->\n  <div class=\"z-trust-item\" aria-label=\"Paiement sécurisé\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <path d=\"M12 3l7 3v5c0 4.5-2.8 8.6-7 10-4.2-1.4-7-5.5-7-10V6l7-3Z\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/>\n      <path d=\"M9.5 12v-1.2a2.5 2.5 0 1 1 5 0V12\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n      <path d=\"M9.5 12h5v4.2h-5V12Z\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span>Paiement sécurisé</span>\n  </div>\n  <span class=\"z-trust-sep\" aria-hidden=\"true\"></span>\n  <!-- Livraison offerte -->\n  <div class=\"z-trust-item\" aria-label=\"Livraison offerte\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <rect x=\"2\" y=\"7\" width=\"12\" height=\"7\" rx=\"1.5\" stroke-width=\"1.6\"/>\n      <path d=\"M14 9h4l3 3v2h-3.3\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <circle cx=\"8\" cy=\"18\" r=\"2\" stroke-width=\"1.6\"/>\n      <circle cx=\"19\" cy=\"18\" r=\"2\" stroke-width=\"1.6\"/>\n    </svg>\n    <span>Livraison offerte</span>\n  </div>\n  <span class=\"z-trust-sep\" aria-hidden=\"true\"></span>\n  <!-- Satisfait ou remboursé -->\n  <div class=\"z-trust-item\" aria-label=\"Satisfait ou remboursé\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <path d=\"M12 3a9 9 0 1 0 9 9\" stroke-width=\"1.6\"/>\n      <polyline points=\"16,3 21,3 21,8\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <polyline points=\"7,12 10.5,15.5 17,9\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span>Satisfait ou remboursé</span>\n  </div>\n</div>"
           }
         }
       },
@@ -389,7 +389,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "zeloa-probiotiques-gummies",
+        "product": "serum-anti-age-kyreo",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -423,7 +423,7 @@
           "type": "tab",
           "settings": {
             "title": "✨ Conseils d’utilisation",
-            "content": "<p><strong>Posologie :</strong></p><ul><li>Prenez <strong>2 gummies par jour</strong></li><li>De préférence <strong>pendant un repas</strong> pour une meilleure absorption</li></ul><p><strong>Durée d’utilisation :</strong></p><ul><li>La régularité est essentielle</li><li>Premiers résultats dès 7 jours, transformation complète en 6 semaines</li></ul><p><strong>Conseils pratiques :</strong></p><ul><li>Prenez vos gummies <strong>à la même heure chaque jour</strong> (matin ou soir, selon vos habitudes)</li><li>Conservez-les <strong>dans un endroit frais et sec</strong></li><li>Associez-les à une <strong>bonne hydratation</strong> et un <strong>mode de vie équilibré</strong> pour maximiser les bienfaits</li></ul><p>💡 <em>Astuce routine</em> : Gardez vos gummies sur votre table de chevet ou près de vos vitamines du matin pour ne jamais oublier votre dose quotidienne.</p>",
+            "content": "<p><strong>Application :</strong></p><ul><li>Appliquez <strong>2-3 gouttes matin et soir</strong></li><li>Sur <strong>peau propre et sèche</strong>, avant votre crème hydratante</li><li>Tapotez délicatement du bout des doigts jusqu'à absorption complète</li></ul><p><strong>Durée d'utilisation :</strong></p><ul><li>La régularité est essentielle</li><li>Premiers résultats dès <strong>2 semaines</strong>, transformation complète en <strong>5-8 semaines</strong></li></ul><p><strong>Conseils pratiques :</strong></p><ul><li>Utilisez votre sérum <strong>à la même heure chaque jour</strong> (matin et soir, selon votre routine)</li><li>Conservez-le <strong>à l'abri de la lumière</strong> et à température ambiante</li><li>Associez-le à une <strong>bonne hydratation</strong> et une <strong>protection solaire</strong> pour maximiser les bienfaits</li><li><strong>Plus besoin</strong> de vos autres sérums - celui-ci fait tout !</li></ul><p>💡 <em>Astuce routine</em> : Gardez votre sérum KYREO près de votre brosse à dents pour ne jamais oublier votre rituel beauté matin et soir.</p>",
             "page": ""
           }
         },
@@ -431,15 +431,15 @@
           "type": "tab",
           "settings": {
             "title": "📦 Détails du produit",
-            "content": "<p><strong>Nom :</strong> Zeloa Probiotiques Gummies<br/><strong>Format :</strong> 60 gummies véganes → cure de 30 jours<br/><strong>Arôme :</strong> Fruits rouges naturellement sucrés<br/><strong>Utilisation recommandée :</strong> 2 gummies par jour, idéalement avec un repas, pour une absorption optimale</p><h3>🌿 Ingrédients clés & bienfaits</h3><p><strong>🍒 Cranberry : ton bouclier naturel</strong><br/>Protection naturelle contre les <strong>inconforts urinaires</strong>.</p><p><strong>🦠 Probiotique breveté : ta flore rééquilibrée</strong><br/>Rééquilibre ta<strong> flore intime </strong>pour une fraîcheur durable.</p><p><strong>💪Vitamine C : ton immunité boostée<br/></strong>Un antioxydant essentiel qui renforce vos <strong>défenses immunitaires</strong>. Elle contribue également à maintenir un <strong>pH équilibré</strong>, élément clé du confort intime et du bien-être global.</p><p><strong>🍍 Enzyme d’ananas (Bromélaïne)</strong><br/>Issue de l’ananas, la bromélaïne apporte une <strong>douceur naturelle</strong> au goût des gummies et soutient les mécanismes de <strong>détoxification de l’organisme</strong>. Elle allie plaisir et bienfaits pour une expérience à la fois gourmande et efficace.</p><p>✨ Avec Zeloa Cranberry Probiotic Gummies, chaque portion quotidienne devient un geste simple de <strong>bien-être intime et global</strong>, associant science, naturaliste et plaisir.</p>",
+            "content": "<p><strong>Nom :</strong> Sérum Anti-Âge KYREO - Tout-en-Un<br/><strong>Format :</strong> 30ml → 2 mois d'utilisation<br/><strong>Texture :</strong> Sérum fluide qui rentre vite<br/><strong>Comment l'utiliser :</strong> 2-3 gouttes matin et soir sur peau propre</p><h2>🌿 Les 4 ingrédients qui changent tout</h2><p><strong>💧 Acide Hyaluronique : hydrate comme jamais</strong><br/>Votre peau <strong>garde son eau toute la journée</strong>. Résultat : <strong>douce et rebondie</strong>du matin au soir.</p><p><strong>🍄 Champignon Tremella : efface les rides</strong><br/>Combat les <strong>rides et les taches</strong> pour retrouver une <strong>peau lisse et jeune</strong>.</p><p><strong>🌱 Portulaca Oleracea : protège votre peau</strong><br/>Plein d'<strong>antioxydants naturels</strong>. Protège des agressions et donne un <strong>teint lumineux</strong>.</p><p><strong>🌿 Aloe Vera : répare et apaise</strong><br/><strong>Calme les irritations</strong> et aide à <strong>effacer rides et taches brunes</strong>naturellement.</p><p>✨ Avec le Sérum KYREO, chaque goutte = <strong>un geste simple pour une belle peau</strong>. <strong>Fini les 5 crèmes</strong> - un seul sérum fait tout.</p>",
             "page": ""
           }
         },
         "tab_MGwBdL": {
           "type": "tab",
           "settings": {
-            "title": "🌸 Zeloa : Naturel, Sûr & Complet pour votre bien-être intime",
-            "content": "<p>Ton bien-être intime mérite enfin une solution qui te ressemble.<br/>Nos gummies associent la puissance des plantes et des actifs <strong>cliniquement étudiés</strong>, conçus pour agir <strong>en harmonie avec votre corps</strong>.</p><p>🚫100% naturel, 0% compromis<br/>✅ Non-OGM, véganes et sans gluten<br/>✅ Sécuritaires pour un usage quotidien, même pendant vos règles<br/>🌸 Doux pour l’estomac et respectueux du pH vaginal</p><p>Chaque gummy est produit dans une usine <strong>certifiée FDA & GMP</strong>, garantissant une qualité, une sécurité et une pureté irréprochables.</p><p>Zeloa : ta révolution bien-être qui va au-delà des apparences.<br/>c’est un <strong>soutien global pour le bien-être intime et la fraîcheur féminine</strong>. Une utilisation régulière contribue à :</p><ul><li><strong>Neutraliser les odeurs et réguler les sécrétions</strong> de l’intérieur vers l’extérieur</li><li><strong>Maintenir un pH vaginal équilibré</strong> pour limiter le développement des mauvaises bactéries</li><li><strong>Renforcer la sensation de propreté et de confiance</strong> tout au long du cycle</li><li>Offrir un goût et une expérience agréables grâce au mélange <strong>cranberry + enzyme d’ananas</strong></li></ul><p>✨ Résultat : vous vous sentez <strong>fraîche, confiante et connectée à votre corps</strong>, chaque jour.</p>",
+            "title": "💎 Kyreo : Votre peau mérite enfin ce qu'il lui faut",
+            "content": "<p>Notre sérum réunit les <strong>meilleurs ingrédients naturels</strong> pour des <strong>résultats que vous voyez</strong>.</p><p>🚫 100% efficace, 0% blabla<br/>✅ Naturel et doux pour votre peau<br/>✅ Parfait pour tous types de peau<br/>✅ Vous pouvez l'utiliser tous les jours<br/>🌸 Respecte votre peau sans l'agresser</p><p>Chaque flacon est fait dans des <strong>laboratoires contrôlés</strong> pour vous garantir la meilleure qualité.</p><h2>KYREO : votre solution anti-âge qui marche vraiment</h2><p>C'est <strong>le sérum qui fait tout</strong> pour garder votre peau jeune. Utilisé tous les jours, il :</p><ul><li><strong>Efface vos rides</strong> dès les premières semaines</li><li><strong>Raffermit votre peau</strong> qui s'affaisse</li><li><strong>Gomme les taches brunes</strong> pour un teint uniforme</li><li><strong>Relance le collagène</strong> pour une peau plus ferme</li><li><strong>Hydrate intensément</strong> du matin au soir</li><li><strong>S'applique facilement</strong> sans laisser de film gras</li></ul><p>✨ <strong>Le résultat :</strong> vous vous sentez <strong>belle et confiante</strong>, tous les jours.</p><p><strong>Fini les 5 crèmes</strong> - une seule solution pour tout changer.</p>",
             "page": ""
           }
         },
@@ -455,7 +455,7 @@
           "type": "tab",
           "settings": {
             "title": "📞Service Client 7J/7",
-            "content": "<p><strong>Une question ? On est là 7j/7 pour toi</strong>. Du Lun au Ven de 9h à 12h et de 14h à 18h / Sam et Dim de 10h à 12h<br/></p><p>Vous pouvez nous contacter par en utilisant l'onglet \"Contact\" de notre boutique ou par email à l'adresse contact@zeloa.fr</p>",
+            "content": "<p><strong>Une question ? On est là 7j/7 pour toi</strong>. Du Lun au Ven de 9h à 12h et de 14h à 18h / Sam et Dim de 10h à 12h<br/></p><p>Vous pouvez nous contacter par en utilisant l'onglet \"Contact\" de notre boutique ou par email à l'adresse contact@kyreo.fr</p>",
             "page": ""
           }
         }
@@ -484,6 +484,7 @@
     },
     "custom_liquid_gfVMqf": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -495,20 +496,80 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_UUfEHN": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "name": "Image with text overlay",
+    "multi_column_cVLHjq": {
+      "type": "multi-column",
+      "blocks": {
+        "item_RJp9Tx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/acidee.png",
+            "column_size": "3",
+            "title": "Acide hyaluronique",
+            "heading_tag": "h4",
+            "content": "<p>L’acide hyaluronique est réputé pour sa capacité inégalée à retenir l’hydratation, laissant la peau repulpée, hydratée et lumineuse.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VBirVd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/aloe_vera.png",
+            "column_size": "3",
+            "title": "Aloe Barbadensis",
+            "heading_tag": "h4",
+            "content": "<p>L’Aloe Barbadensis, ou Aloe Vera, possède des propriétés naturellement rafraîchissantes qui apaisent la peau sensible tout en ciblant visiblement les ridules, rides et taches pigmentaires.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_9PzWK8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/champignon.png",
+            "column_size": "3",
+            "title": "Champignon Tremella",
+            "heading_tag": "h4",
+            "content": "<p>Le champignon Tremella aide à réduire l’apparence des ridules, des rides et des taches sombres, tout en offrant à la peau une luminosité jeune et radieuse.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ckx6Np": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/portucula.png",
+            "column_size": "3",
+            "title": "Portulaca Oleracea",
+            "heading_tag": "h4",
+            "content": "<p>La Portulaca Oleracea est une source précieuse d’antioxydants et d’oméga-3. Elle protège la peau contre les radicaux libres et le stress oxydatif, révélant un teint plus lumineux et éclatant.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_RJp9Tx",
+        "item_VBirVd",
+        "item_9PzWK8",
+        "item_ckx6Np"
+      ],
+      "name": "Multi-column",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Les 4 ingrédients qui changent tout",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#2f2f2f"
       }
     },
     "custom_liquid_gqJ8wK": {
@@ -758,7 +819,7 @@
     "1754715508d43cdc4d",
     "tabs_cYdcCh",
     "custom_liquid_gfVMqf",
-    "image_with_text_overlay_UUfEHN",
+    "multi_column_cVLHjq",
     "custom_liquid_gqJ8wK",
     "multiple_images_with_text_iqjDYF",
     "faq",
