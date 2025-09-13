@@ -349,7 +349,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "#8f2228",
+            "atc_button_background": "#a0522d",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -623,91 +623,70 @@
           "type": "item",
           "settings": {
             "title": "Quels sont les delais de livraison ?",
-            "content": "<p>Suite au grand succès de notre produit les délais de livraison sont les suivant:</p><ul><li>Délai de traitement : 1 à 3 jours ouvrés</li></ul><p></p><ul><li>Délai de livraison : 5 à 14 jours ouvrés</li></ul>"
+            "content": "<p>Suite au grand succès de notre produit les délais de livraison sont les suivant:</p><ul><li>Délai de traitement : 1 à 3 jours ouvrés</li></ul><p></p><ul><li>Délai de livraison : 5 à 9 jours ouvrés</li></ul>"
           }
         },
         "item_CJtnFP": {
           "type": "item",
           "settings": {
-            "title": "Cela peut-il aider avec les fibromes utérins ?",
-            "content": "<p>De nombreuses femmes atteintes de fibromes ont signalés moins de saignements, des cycles plus réguliers et même des grossesses après avoir utilisés nos gommes.Bien qu'il ne s'agisse pas d'un traitement médical, ils soutiennent l'équilibre hormonal - qui joue un rôle clé.</p>"
+            "title": "En combien de temps verrai-je les résultats ?",
+            "content": "<p>La plupart de nos clientes constatent une peau plus hydratée, lisse et lumineuse dès la première semaine. Les résultats anti-âge (ridules, fermeté, éclat) apparaissent progressivement, avec un effet optimal après environ 3 mois d’utilisation régulière.</p>"
           }
         },
         "item_Yqbig9": {
           "type": "item",
           "settings": {
-            "title": "À qui s’adressent ces gummies ?",
-            "content": "<p>Ces gummies sont conçus pour toutes les femmes qui souhaitent prendre soin de leur confort intime, prévenir les inconforts urinaires et maintenir un bon équilibre vaginal au quotidien.</p>"
+            "title": "Convient-il à tous les types de peau ?",
+            "content": "<p>Oui ! Notre sérum a été formulé pour convenir aux peaux sèches, grasses, mixtes et sensibles.</p>"
           }
         },
         "item_adYg9V": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que c’est bon pour toutes les femmes ?",
-            "content": "<p>Absolument. Que vous souhaitiez prévenir les déséquilibres, limiter les inconforts ou juste<strong>prendre soin de votre féminité au quotidien</strong>, ces gummies sont faits pour vous.</p>"
+            "title": "Puis-je l’utiliser avec ma routine actuelle ?",
+            "content": "<p>Absolument. Le sérum s’applique avant votre crème de jour ou de nuit, et il est compatible avec le maquillage.</p>"
           }
         },
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "En combien de temps puis-je ressentir les effets ?",
-            "content": "<p>Chaque femme est différente, mais beaucoup constatent une amélioration du confort intime après <strong>7 jours d’utilisation régulière</strong>. L’effet préventif se renforce avec la constance.</p>"
+            "title": "Combien de temps dure un flacon ?",
+            "content": "<p>En moyenne 4 à 6 semaines pour une utilisation quotidienne (2 à 3 gouttes suffisent).</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Est-ce que ça remplace un traitement médical ?",
-            "content": "<p>Non. Les gummies ne remplacent pas un traitement médical. Ils sont une<strong>solution naturelle de prévention et de confort</strong>, mais en cas de problème persistant, consultez un professionnel de santé.</p>"
+            "title": "Est-ce testé dermatologiquement ?",
+            "content": "<p>Oui, nos formules sont testées dermatologiquement et répondent aux normes de sécurité européennes.</p>"
           }
         },
         "item_Mxpjfe": {
           "type": "item",
           "settings": {
-            "title": "Puis-je en prendre pendant mes règles ?",
-            "content": "<p>Absolument. La prise est continue, <strong>même pendant les règles</strong>, pour maintenir un équilibre optimal de la flore vaginale.</p>"
+            "title": "Quels sont les ingrédients principaux ?",
+            "content": "<p>Acide hyaluronique, Aloe Vera, champignon Tremella et Portulaca Oleracea : une combinaison puissante d’actifs hydratants, anti-âge et antioxydants.</p>"
           }
         },
         "item_RgPy4r": {
           "type": "item",
           "settings": {
-            "title": "Peut-on en prendre pendant la grossesse ou l’allaitement ?",
-            "content": "<p>Par précaution, nous recommandons de demander l’avis de votre médecin avant toute consommation pendant la grossesse ou l’allaitement.</p>"
+            "title": "Est-ce naturel et cruelty free ?",
+            "content": "<p>Oui, nos ingrédients sont d’origine naturelle et aucun test n’est effectué sur les animaux.</p>"
           }
         },
         "item_gAXyKk": {
           "type": "item",
           "settings": {
-            "title": "Où sont fabriqués vos gummies ?",
-            "content": "<p>Nos produits sont fabriqués dans des <strong>laboratoires certifiés</strong>, avec un haut niveau de qualité et de sécurité.</p>"
+            "title": "Y a-t-il des effets secondaires ou risques d’allergie ?",
+            "content": "<p>Le sérum est doux et adapté à toutes les peaux. Comme pour tout produit cosmétique, nous recommandons un test sur une petite zone de peau avant la première utilisation.</p>"
           }
         },
         "item_8PikyL": {
           "type": "item",
           "settings": {
-            "title": "Pourquoi choisir ces gummies plutôt que des gélules ?",
-            "content": "<p>Parce qu’ils sont <strong>délicieux, pratiques et efficaces</strong> ! Plus besoin de se forcer à avaler des comprimés secs : ici, votre routine devient un petit moment plaisir, tout en prenant soin de votre intimité.</p>"
-          }
-        },
-        "item_apEVnz": {
-          "type": "item",
-          "settings": {
-            "title": "Quelle est la posologie recommandée ?",
-            "content": "<p>La dose conseillée est de<strong>2 gummies par jour</strong>, à consommer à tout moment de la journée.</p>"
-          }
-        },
-        "item_g3LeBN": {
-          "type": "item",
-          "settings": {
-            "title": "Quels sont les effets attendus ?",
-            "content": "<p>Une consommation régulière peut aider à <strong>réduire la fréquence des gênes urinaires</strong>, soutenir la flore vaginale et améliorer le confort intime général.</p>"
-          }
-        },
-        "item_Aty3CL": {
-          "type": "item",
-          "settings": {
-            "title": "Qu'es-ce que rend Zeloa différent ?",
-            "content": "<p>La plupart de vos probiotiques ciblent votre intestin. Nous allons plus loin - avec des souches soutenus par la science qui soutiennent votre <strong>flore vaginal</strong>, votre <strong>santé de fertilité </strong>et votre <strong>équilibre hormonale. </strong>C'est pourquoi tant de femmes disent qu'elles ont récupérée leur règle... ou qu'elles sont tombés enceinte quand elle s'y attendaient le moins.</p>"
+            "title": "Puis-je l’utiliser si je suis enceinte ou allaitante ?",
+            "content": "<p>Nos formules sont sûres, mais nous conseillons de demander l’avis de votre médecin par précaution.</p>"
           }
         }
       },
@@ -721,10 +700,7 @@
         "item_Mxpjfe",
         "item_RgPy4r",
         "item_gAXyKk",
-        "item_8PikyL",
-        "item_apEVnz",
-        "item_g3LeBN",
-        "item_Aty3CL"
+        "item_8PikyL"
       ],
       "settings": {
         "full_width": false,
