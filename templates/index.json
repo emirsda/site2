@@ -53,11 +53,11 @@
             "link": ""
           }
         },
-        "logo_8eQWF3": {
+        "logo_bGUgJr": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/logo___madame_figaro_-removebg-preview.png",
-            "logo_width": 200,
+            "logo": "shopify://shop_images/logo_madame_figare-removebg-preview.png",
+            "logo_width": 290,
             "link": ""
           }
         }
@@ -66,7 +66,7 @@
         "logo_iMhVMP",
         "logo_TBEEDd",
         "logo_HRPg6a",
-        "logo_8eQWF3"
+        "logo_bGUgJr"
       ],
       "name": "Logo list",
       "settings": {
@@ -163,10 +163,10 @@
         "subheading": "",
         "title": "Avant/Après",
         "content": "",
-        "before_image": "shopify://shop_images/image_gauche_600x600_ccd33f06-6ef0-452d-9620-7b294de71348.jpg",
-        "before_image_mobile": "shopify://shop_images/image_gauche_600x600_ccd33f06-6ef0-452d-9620-7b294de71348.jpg",
-        "after_image": "shopify://shop_images/image_droite_600x600_2ac175d8-de0f-4a51-b233-c7719b886b63.jpg",
-        "after_image_mobile": "shopify://shop_images/image_droite_600x600_2ac175d8-de0f-4a51-b233-c7719b886b63.jpg",
+        "before_image": "shopify://shop_images/image_gauche.png",
+        "before_image_mobile": "shopify://shop_images/image_gauche.png",
+        "after_image": "shopify://shop_images/image_droite.png",
+        "after_image_mobile": "shopify://shop_images/image_droite.png",
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
@@ -752,10 +752,10 @@
         "button_text_color": "#ffffff"
       }
     },
-    "17548419043ad4b515": {
+    "17577721185317e402": {
       "type": "apps",
       "blocks": {
-        "loox_reviews_loox_agg_section_BzyKg8": {
+        "loox_reviews_loox_agg_section_HRh8aC": {
           "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
@@ -769,7 +769,7 @@
         }
       },
       "block_order": [
-        "loox_reviews_loox_agg_section_BzyKg8"
+        "loox_reviews_loox_agg_section_HRh8aC"
       ],
       "settings": {
         "full_width": true,
@@ -800,6 +800,6 @@
     "multiple_images_with_text_iqjDYF",
     "faq",
     "contact_4eMBiX",
-    "17548419043ad4b515"
+    "17577721185317e402"
   ]
 }
