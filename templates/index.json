@@ -375,21 +375,21 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_khiYr6": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div id=\"offer-timer\">\n  <p class=\"timer-title\"> Offre Spéciale : Sérum offert avec votre commande !</p>\n  <div id=\"countdown\">15:00</div>\n  <p class=\"timer-subtitle\">Dépêchez-vous, l’offre expire bientôt ⏳</p>\n</div>\n\n<style>\n  #offer-timer {\n    background-color: #F8F6F3; /* Fond doux */\n    border: 2px solid #B8860B;\n    border-radius: 12px;\n    padding: 20px;\n    text-align: center;\n    font-family: Arial, sans-serif;\n    max-width: 350px;\n    margin: 20px auto;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n  }\n\n  #offer-timer .timer-title {\n    color: #B8860B;\n    font-size: 18px;\n    font-weight: bold;\n    margin-bottom: 10px;\n  }\n\n  #countdown {\n    font-size: 36px;\n    font-weight: bold;\n    color: #B8860B;\n    margin: 10px 0;\n  }\n\n  #offer-timer .timer-subtitle {\n    color: #333;\n    font-size: 14px;\n    margin-top: 10px;\n  }\n</style>\n\n<script>\n  function startCountdown(duration, display) {\n    let timer = duration, minutes, seconds;\n    setInterval(function () {\n      minutes = parseInt(timer / 60, 10);\n      seconds = parseInt(timer % 60, 10);\n\n      minutes = minutes < 10 ? \"0\" + minutes : minutes;\n      seconds = seconds < 10 ? \"0\" + seconds : seconds;\n\n      display.textContent = minutes + \":\" + seconds;\n\n      if (--timer < 0) {\n        display.textContent = \"OFFRE EXPIRÉE ❌\";\n      }\n    }, 1000);\n  }\n\n  window.onload = function () {\n    let fifteenMinutes = 60 * 15,\n        display = document.querySelector('#countdown');\n    startCountdown(fifteenMinutes, display);\n  };\n</script>"
-          }
-        },
-        "pickup_availability_hfnTka": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
         "liquid_aBrLDx": {
           "type": "liquid",
           "settings": {
             "liquid": "{%- comment -%} Badges de confiance — section fixe sous le bouton panier {%- endcomment -%}\n<div class=\"z-trust-row\" role=\"group\" aria-label=\"Garanties de la boutique\">\n  <style>\n    :root{\n      --z-accent:#B8860B;  /* Couleur marque (or discret) */\n      --z-ink:#2F2F2F;     /* Texte (gris charbon) */\n    }\n    .z-trust-row{\n      display:flex; align-items:center; justify-content:center; flex-wrap:wrap;\n      gap:12px; margin-top:12px; background:transparent;\n      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, \"Helvetica Neue\", sans-serif;\n    }\n    .z-trust-item{\n      display:flex; align-items:center; gap:8px;\n      color:var(--z-ink); font-weight:800; font-size:13.5px; white-space:nowrap;\n    }\n    .z-trust-ico{ width:18px; height:18px; flex:0 0 18px; }\n    .z-trust-ico *{ stroke:var(--z-accent); }\n    .z-trust-sep{ width:1px; height:16px; background:var(--z-accent); opacity:.35; }\n    /* Mobile : ultra clean, sans séparateurs verticaux */\n    @media (max-width:540px){\n      .z-trust-row{ justify-content:flex-start; gap:10px; }\n      .z-trust-sep{ display:none; }\n      .z-trust-item{ font-size:13px; }\n    }\n  </style>\n  <!-- Paiement sécurisé -->\n  <div class=\"z-trust-item\" aria-label=\"Paiement sécurisé\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <path d=\"M12 3l7 3v5c0 4.5-2.8 8.6-7 10-4.2-1.4-7-5.5-7-10V6l7-3Z\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/>\n      <path d=\"M9.5 12v-1.2a2.5 2.5 0 1 1 5 0V12\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n      <path d=\"M9.5 12h5v4.2h-5V12Z\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span>Paiement sécurisé</span>\n  </div>\n  <span class=\"z-trust-sep\" aria-hidden=\"true\"></span>\n  <!-- Livraison offerte -->\n  <div class=\"z-trust-item\" aria-label=\"Livraison offerte\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <rect x=\"2\" y=\"7\" width=\"12\" height=\"7\" rx=\"1.5\" stroke-width=\"1.6\"/>\n      <path d=\"M14 9h4l3 3v2h-3.3\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <circle cx=\"8\" cy=\"18\" r=\"2\" stroke-width=\"1.6\"/>\n      <circle cx=\"19\" cy=\"18\" r=\"2\" stroke-width=\"1.6\"/>\n    </svg>\n    <span>Livraison offerte</span>\n  </div>\n  <span class=\"z-trust-sep\" aria-hidden=\"true\"></span>\n  <!-- Satisfait ou remboursé -->\n  <div class=\"z-trust-item\" aria-label=\"Satisfait ou remboursé\">\n    <svg class=\"z-trust-ico\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n      <path d=\"M12 3a9 9 0 1 0 9 9\" stroke-width=\"1.6\"/>\n      <polyline points=\"16,3 21,3 21,8\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      <polyline points=\"7,12 10.5,15.5 17,9\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    <span>Satisfait ou remboursé</span>\n  </div>\n</div>"
           }
+        },
+        "liquid_khiYr6": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- TRUST BADGE (responsive) — à placer sous le bouton \"Acheter maintenant\" -->\n<div class=\"trust-badge\" role=\"note\" aria-label=\"Assurances et preuves de confiance\">\n  <span class=\"trust-icon\" aria-hidden=\"true\">\n    <!-- Icône bouclier -->\n    <svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" focusable=\"false\">\n      <path d=\"M12 2l7 3v6c0 5-3.4 9.7-7 11-3.6-1.3-7-6-7-11V5l7-3z\" fill=\"currentColor\"/>\n      <path d=\"M9.2 12.5l2.1 2.1 4.5-4.5\" fill=\"none\" stroke=\"#F8F6F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n  </span>\n\n  <!-- Texte complet (desktop/tablette) -->\n  <p class=\"trust-text trust-desktop\">\n    <strong>Déjà adopté par 12 000 femmes</strong> • Testé dermatologiquement •\n    Résultats visibles dès les premières semaines • <strong>Garantie 100% satisfait ou remboursé</strong> ✔️\n  </p>\n\n  <!-- Texte compact (mobile) -->\n  <p class=\"trust-text trust-mobile\">\n    12 000 femmes convaincues • Testé dermatologiquement • Satisfait ou remboursé ✔️\n  </p>\n</div>\n\n<style>\n  /* ====== Variables (facile à réutiliser) ====== */\n  :root{\n    --trust-accent:#B8860B; /* or chaud */\n    --trust-bg:#F8F6F3;     /* fond crème */\n    --trust-text:#2B2B2B;\n    --trust-shadow:0 6px 18px rgba(0,0,0,.07);\n    --trust-radius:14px;\n  }\n\n  .trust-badge{\n    display:flex; align-items:flex-start; gap:.75rem;\n    background:var(--trust-bg);\n    border:1.5px solid var(--trust-accent);\n    border-radius:var(--trust-radius);\n    padding:.9rem 1rem;\n    box-shadow:var(--trust-shadow);\n    margin-top:12px;\n  }\n\n  .trust-icon{\n    color:var(--trust-accent);\n    display:inline-flex; align-items:center; justify-content:center;\n    width:32px; height:32px; min-width:32px;\n    background:color-mix(in srgb, var(--trust-accent) 14%, transparent);\n    border-radius:50%;\n  }\n\n  .trust-text{\n    margin:0; line-height:1.35; color:var(--trust-text);\n    font-size:14.5px; font-weight:500;\n  }\n  .trust-text strong{ color:var(--trust-accent); font-weight:700; }\n\n  /* ====== Responsive ====== */\n  /* Desktop/par défaut : afficher la version complète */\n  .trust-desktop{ display:block; }\n  .trust-mobile{ display:none; }\n\n  /* Tablettes petites & Mobile : switch vers version compacte */\n  @media (max-width:600px){\n    .trust-badge{ padding:.8rem .9rem; gap:.6rem; }\n    .trust-icon{ width:28px; height:28px; min-width:28px; }\n    .trust-text{ font-size:13.5px; }\n    .trust-desktop{ display:none; }\n    .trust-mobile{ display:block; }\n  }\n\n  /* Très petits écrans : encore plus compact mais lisible */\n  @media (max-width:360px){\n    .trust-text{ font-size:13px; }\n  }\n</style>"
+          }
+        },
+        "pickup_availability_hfnTka": {
+          "type": "pickup_availability",
+          "settings": {}
         }
       },
       "block_order": [
@@ -403,9 +403,9 @@
         "quantity_selector_kGXk3x",
         "kaching_bundles_app_block_GjatLA",
         "buy_buttons_Q6DaDT",
+        "liquid_aBrLDx",
         "liquid_khiYr6",
-        "pickup_availability_hfnTka",
-        "liquid_aBrLDx"
+        "pickup_availability_hfnTka"
       ],
       "name": "Featured product",
       "settings": {
