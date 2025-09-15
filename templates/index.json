@@ -350,7 +350,7 @@
         "liquid_k4mmhy": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p style=\"text-align:center; margin-top:12px; color:#2F2F2F; font-size:13px; font-weight:500;\">\n  <span style=\"opacity:0.8;\">Livré en</span> <strong style=\"color:#B8860B;\">9 jours</strong> <span style=\"opacity:0.8;\">• Emballage neutre</span>\n</p>"
+            "liquid": "<p style=\"text-align:center; margin-top:12px; color:#2F2F2F; font-size:13px; font-weight:500;\">\n  <span style=\"opacity:0.8;\">Livré en</span> <strong style=\"color:#B8860B;\">9 jours</strong> <span style=\"opacity:0.8;></span>\n</p>"
           }
         },
         "quantity_selector_kGXk3x": {
