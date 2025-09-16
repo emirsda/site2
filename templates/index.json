@@ -265,12 +265,12 @@
         },
         "item_KUbdhB": {
           "type": "item",
-          "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/image2_2000x1414_a0d02463-28ef-4f51-bd92-45305b3998bc.jpg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Julianna M.</strong></p><p>Je viens de finir mon premier sachet et je suis bluffée. Résultats rapides et surtout hyper facile à intégrer dans ma routine. Je le conseille les yeux fermés.</p>",
+            "content": "<p><strong>Julianna M.</strong></p><p>Ma peau? La voila lisse, sans rides et sans taches. Qui l'aurai crue? Merci Kyreo</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
