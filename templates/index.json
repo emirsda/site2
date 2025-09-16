@@ -224,6 +224,19 @@
             "link_style": "link"
           }
         },
+        "item_gfX6kg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/image1_2000x1414_a8c4d088-7c76-41a8-9c65-fde9f37c21e2.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Rosana S.  </strong></p><p>Ce produit est juste magique, passé d'un teint très fatigué pour venir a cette peau la. J'en suis tellement contente.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_39JEcB": {
           "type": "item",
           "settings": {
@@ -250,20 +263,6 @@
             "link_style": "link"
           }
         },
-        "item_gfX6kg": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/avant_apres_rides.webp",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>Rosana S.  </strong></p><p>Les gélules me donnaient la nausée et j’oubliais souvent de les prendre. Zeloa, c’est impossible d’oublier : le goût est addictif et les résultats sont rapides. Dès 7 jours, j’ai vu la différence.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_KUbdhB": {
           "type": "item",
           "disabled": true,
@@ -280,9 +279,9 @@
       },
       "block_order": [
         "item_LY8UGy",
+        "item_gfX6kg",
         "item_39JEcB",
         "item_3aHNRK",
-        "item_gfX6kg",
         "item_KUbdhB"
       ],
       "name": "Multi-column",
