@@ -254,6 +254,7 @@
           "type": "item",
           "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/avant_apres_rides.webp",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
