@@ -111,7 +111,7 @@
           "settings": {
             "title": "Nous contacter",
             "content": "<p><strong>Service client</strong> : contact@kyreo.fr<br/><br/><strong>Horaires </strong>: Du Lun au Ven de 9h à 12h et de 14h à 18h / Sam et Dim de 10h à 12h</p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         }
       },

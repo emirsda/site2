@@ -766,6 +766,19 @@
         "accordion_text_color": ""
       }
     },
+    "custom_liquid_P9QQhd": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<h2 class=\"kyreo-title\">\n  <span class=\"highlight\">Validé par les experts</span> qui savent.<br>\n  <span class=\"subtitle\">Leur réputation en dépend.<br>Ils ont choisi <strong>KYREO</strong>.</span>\n</h2>\n\n<style>\n.kyreo-title {\n  text-align: center;\n  font-size: clamp(1.4rem, 1.2rem + 1vw, 2.2rem);\n  font-weight: 800;\n  line-height: 1.3;\n  color: #2F2F2F; /* couleur texte principale */\n  margin: 2rem auto;\n  max-width: 900px;\n  font-family: 'Inter', -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n}\n.kyreo-title .highlight {\n  color: #C89B0E; /* doré premium (peut être changé par ta couleur accent) */\n}\n.kyreo-title .subtitle {\n  font-size: 1rem;\n  font-weight: 500;\n  color: #555;\n  display: block;\n  margin-top: 0.5rem;\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "contact_4eMBiX": {
       "type": "contact",
       "name": "Contact form",
@@ -836,6 +849,7 @@
     "multiple_images_with_text_iqjDYF",
     "custom_liquid_eVXVfG",
     "faq",
+    "custom_liquid_P9QQhd",
     "contact_4eMBiX",
     "17577721185317e402"
   ]
