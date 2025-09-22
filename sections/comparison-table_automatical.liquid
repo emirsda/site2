@@ -1,0 +1,299 @@
+{% comment %}
+  Section: Comparison Table (Automatique)
+  - Nom dans l’éditeur : "Tableau comparatif automatique"
+  - Catégorie du preset : "Testimonials"
+  - Images via image_picker + image_tag (width/height/srcset auto)
+  - Lignes via blocks : "Ligne prix" et "Ligne critère"
+{% endcomment %}
+
+<section id="cmp-{{ section.id }}">
+  <style>
+    #cmp-{{ section.id }} .comparison-table {
+      --radius: {{ section.settings.radius | default: 18 | plus: 0 }}px;
+      --pill: {{ section.settings.pill_color | default: '#FE807B' }};
+      --pill-fg: {{ section.settings.pill_color_fg | default: '#ffffff' }};
+      /* AJOUTS */
+      --yes-color: {{ section.settings.yes_color | default: '#FFB6AF' }};
+      --no-color: {{ section.settings.no_color | default: '#dddddd' }};
+      --no-icon-color: {{ section.settings.no_icon_color | default: '#999999' }};
+      --img-left-radius: {{ section.settings.img_left_radius | default: 0 | plus: 0 }}px;
+      --img-right-radius: {{ section.settings.img_right_radius | default: 0 | plus: 0 }}px;
+
+      width: 100%;
+      max-width: {{ section.settings.max_width | default: 680 | plus: 0 }}px;
+      margin: 0 auto;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: transparent;
+      font-family: {{ section.settings.font_stack | default: '"Segoe UI", Arial, sans-serif' }};
+      table-layout: fixed;
+    }
+    #cmp-{{ section.id }} .comparison-table th,
+    #cmp-{{ section.id }} .comparison-table td {
+      padding: 14px 16px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 0.96rem;
+      line-height: 1.4;
+      position: relative;
+    }
+    #cmp-{{ section.id }} .comparison-table th:first-child,
+    #cmp-{{ section.id }} .comparison-table td:first-child {
+      text-align: left;
+      font-weight: 300;
+      font-size: 1rem;
+      color: #333;
+      word-break: break-word;
+    }
+    /* Colonne rose (Luvaya) = 2e colonne */
+    #cmp-{{ section.id }} .comparison-table thead th:nth-child(2),
+    #cmp-{{ section.id }} .comparison-table tbody td:nth-child(2) {
+      background: var(--pill);
+      color: var(--pill-fg);
+      position: relative;
+      z-index: 1;
+    }
+    #cmp-{{ section.id }} .comparison-table thead th:nth-child(2) {
+      border-top-left-radius: var(--radius);
+      border-top-right-radius: var(--radius);
+    }
+    #cmp-{{ section.id }} .comparison-table tbody tr:last-child td:nth-child(2) {
+      border-bottom-left-radius: var(--radius);
+      border-bottom-right-radius: var(--radius);
+      padding-bottom: 14px;
+    }
+    #cmp-{{ section.id }} .comparison-table tbody tr:last-child td:nth-child(2)::after {
+      content: "";
+      position: absolute;
+      left: 0; right: 0;
+      bottom: -20px;
+      height: 40px;
+      background: var(--pill);
+      border-bottom-left-radius: var(--radius);
+      border-bottom-right-radius: var(--radius);
+      pointer-events: none;
+      z-index: -1;
+    }
+    #cmp-{{ section.id }} .comparison-table thead th {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    /* Pastilles yes/no */
+    #cmp-{{ section.id }} .comparison-table td.yes,
+    #cmp-{{ section.id }} .comparison-table td.no { font-size: 0; }
+
+    #cmp-{{ section.id }} .comparison-table td.price {
+      font-size: 0.96rem;
+      line-height: 1.4;
+      font-weight: 600;
+      color: inherit;
+    }
+    #cmp-{{ section.id }} .comparison-table td.yes::before,
+    #cmp-{{ section.id }} .comparison-table td.no::before {
+      content: "";
+      display: inline-block;
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 12px 12px;
+    }
+    #cmp-{{ section.id }} .comparison-table td.yes::before {
+      /* MODIF: couleur configurable */
+      background-color: var(--yes-color);
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23fff" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4z"/></svg>');
+    }
+    #cmp-{{ section.id }} .comparison-table td.no::before {
+      /* MODIF: couleur pastille + couleur icône configurables */
+      background-color: var(--no-color);
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='{{ section.settings.no_icon_color | default: '#999999' | replace: '#', '%23' }}' viewBox='0 0 320 512'><path d='M310.6 361.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L160 301.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L114.7 256 9.4 150.6C-3.1 138.1-3.1 117.9 9.4 105.4s32.8-12.5 45.3 0L160 210.7 265.4 105.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L205.3 256 310.6 361.4z'/></svg>");
+    }
+    /* Logos */
+    #cmp-{{ section.id }} .comparison-table thead img {
+      display: inline-block;
+      height: clamp(60px, 10vw, 90px);
+      width: auto;
+    }
+    /* AJOUT: radius par image */
+    #cmp-{{ section.id }} .comparison-table thead th:nth-child(2) img { border-radius: var(--img-left-radius); }
+    #cmp-{{ section.id }} .comparison-table thead th:nth-child(3) img { border-radius: var(--img-right-radius); }
+
+    /* Mobile */
+    @media (max-width: 640px) {
+      #cmp-{{ section.id }} .comparison-table th,
+      #cmp-{{ section.id }} .comparison-table td { padding: 10px 12px; font-size: 0.9rem; }
+      #cmp-{{ section.id }} .comparison-table th:first-child,
+      #cmp-{{ section.id }} .comparison-table td:first-child { font-size: 0.95rem; }
+      #cmp-{{ section.id }} .comparison-table thead img {
+        height: clamp(70px, 18vw, 100px);
+      }
+      #cmp-{{ section.id }} .comparison-table colgroup col:nth-child(1) { width: 52% !important; }
+      #cmp-{{ section.id }} .comparison-table colgroup col:nth-child(2),
+      #cmp-{{ section.id }} .comparison-table colgroup col:nth-child(3) { width: 24% !important; }
+
+      #cmp-{{ section.id }} .comparison-table td.yes::before,
+      #cmp-{{ section.id }} .comparison-table td.no::before { width: 20px; height: 20px; background-size: 11px 11px; }
+
+      #cmp-{{ section.id }} .comparison-table thead th { padding-top: 14px; padding-bottom: 14px; }
+      #cmp-{{ section.id }} .comparison-table td.price {
+        font-size: 0.70rem;
+        padding: 10px 6px;
+        white-space: normal;
+      }
+    }
+    /* Accessibilité */
+    #cmp-{{ section.id }} .sr-only {
+      position: absolute !important;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0);
+      white-space: nowrap; border: 0;
+    }
+  </style>
+
+  <table class="comparison-table" role="table" aria-label="{{ section.settings.aria_label | escape }}">
+    <colgroup>
+      <col style="width:{{ section.settings.col1_width | default: '50' }}%">
+      <col style="width:{{ section.settings.col2_width | default: '25' }}%">
+      <col style="width:{{ section.settings.col3_width | default: '25' }}%">
+    </colgroup>
+    <thead class="isolate">
+      <tr>
+        <th></th>
+        <th align="center">
+          {% if section.settings.img_left != blank %}
+            {{ section.settings.img_left
+              | image_url: width: 352
+              | image_tag:
+                  alt: section.settings.img_left_alt,
+                  loading: 'lazy' }}
+          {% else %}
+            {{ section.settings.fallback_left | escape }}
+          {% endif %}
+        </th>
+        <th align="center">
+          {% if section.settings.img_right != blank %}
+            {{ section.settings.img_right
+              | image_url: width: 352
+              | image_tag:
+                  alt: section.settings.img_right_alt,
+                  loading: 'lazy' }}
+          {% else %}
+            {{ section.settings.fallback_right | escape }}
+          {% endif %}
+        </th>
+      </tr>
+    </thead>
+    <tbody class="isolate">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'price' -%}
+            <tr {{ block.shopify_attributes }}>
+              <td scope="row"><strong>{{ block.settings.label | escape }}</strong></td>
+              <td class="price">
+                {{ block.settings.left_text }}
+                <span class="sr-only">{{ section.settings.sr_offer | escape }}</span>
+              </td>
+              <td class="price">
+                {{ block.settings.right_text }}
+                <span class="sr-only">{{ section.settings.sr_offer | escape }}</span>
+              </td>
+            </tr>
+          {%- when 'feature' -%}
+            {%- assign left_yes = block.settings.left_yes -%}
+            {%- assign right_yes = block.settings.right_yes -%}
+            <tr {{ block.shopify_attributes }}>
+              <td scope="row"><strong>{{ block.settings.label | escape }}</strong></td>
+              <td class="{% if left_yes %}yes{% else %}no{% endif %}">
+                <span class="sr-only">{% if left_yes %}{{ section.settings.sr_yes | escape }}{% else %}{{ section.settings.sr_no | escape }}{% endif %}</span>
+              </td>
+              <td class="{% if right_yes %}yes{% else %}no{% endif %}">
+                <span class="sr-only">{% if right_yes %}{{ section.settings.sr_yes | escape }}{% else %}{{ section.settings.sr_no | escape }}{% endif %}</span>
+              </td>
+            </tr>
+        {%- endcase -%}
+      {%- endfor -%}
+    </tbody>
+  </table>
+</section>
+
+{% schema %}
+{
+  "name": "Tableau comparatif auto",
+  "settings": [
+    { "type": "text", "id": "aria_label", "label": "Libellé ARIA du tableau", "default": "Comparatif Luvaya vs Filler Tradizionali" },
+
+    { "type": "image_picker", "id": "img_left",  "label": "Image colonne 2 (Luvaya)" },
+    { "type": "text", "id": "img_left_alt", "label": "Texte alternatif image gauche", "default": "Luvaya" },
+    { "type": "text", "id": "fallback_left", "label": "Texte fallback (si pas d'image à gauche)", "default": "Luvaya" },
+
+    { "type": "image_picker", "id": "img_right", "label": "Image colonne 3 (Autre / Filler)" },
+    { "type": "text", "id": "img_right_alt", "label": "Texte alternatif image droite", "default": "Filler Tradizionali" },
+    { "type": "text", "id": "fallback_right", "label": "Texte fallback (si pas d'image à droite)", "default": "Filler Tradizionali" },
+
+    { "type": "text", "id": "col1_width", "label": "Largeur colonne 1 (%)", "default": "50" },
+    { "type": "text", "id": "col2_width", "label": "Largeur colonne 2 (%)", "default": "25" },
+    { "type": "text", "id": "col3_width", "label": "Largeur colonne 3 (%)", "default": "25" },
+
+    { "type": "range", "id": "max_width", "label": "Largeur max du tableau (px)", "min": 480, "max": 1400, "step": 10, "default": 680 },
+    { "type": "range", "id": "radius", "label": "Rayon des coins (px)", "min": 0, "max": 36, "step": 1, "default": 18 },
+
+    { "type": "color", "id": "pill_color", "label": "Couleur de la colonne Luvaya", "default": "#FE807B" },
+    { "type": "color", "id": "pill_color_fg", "label": "Couleur du texte colonne Luvaya", "default": "#FFFFFF" },
+
+    /* AJOUTS – couleurs pastilles */
+    { "type": "color", "id": "yes_color", "label": "Couleur pastille Oui", "default": "#FFB6AF" },
+    { "type": "color", "id": "no_color", "label": "Couleur pastille Non", "default": "#dddddd" },
+    { "type": "color", "id": "no_icon_color", "label": "Couleur de la croix Non", "default": "#999999" },
+
+    /* AJOUTS – radius images (indépendants) */
+    { "type": "range", "id": "img_left_radius", "label": "Arrondi image gauche (px)", "min": 0, "max": 50, "step": 1, "default": 0 },
+    { "type": "range", "id": "img_right_radius", "label": "Arrondi image droite (px)", "min": 0, "max": 50, "step": 1, "default": 0 },
+
+    { "type": "text", "id": "font_stack", "label": "Pile de fontes", "default": "\"Segoe UI\", Arial, sans-serif" },
+
+    { "type": "text", "id": "sr_yes", "label": "Texte accessibilité OUI", "default": "Oui" },
+    { "type": "text", "id": "sr_no", "label": "Texte accessibilité NON", "default": "Non" },
+    { "type": "text", "id": "sr_offer", "label": "Texte accessibilité offre", "default": "Offre disponible" }
+  ],
+  "blocks": [
+    {
+      "type": "price",
+      "name": "Ligne prix",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Libellé (colonne 1)", "default": "Prix" },
+        { "type": "text", "id": "left_text", "label": "Texte Luvaya", "default": "Dès 39,90€" },
+        { "type": "text", "id": "right_text", "label": "Texte Filler", "default": "Dès 350€" }
+      ]
+    },
+    {
+      "type": "feature",
+      "name": "Ligne critère",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Critère", "default": "Résultats durables" },
+        { "type": "checkbox", "id": "left_yes", "label": "Luvaya (Oui ?)", "default": true },
+        { "type": "checkbox", "id": "right_yes", "label": "Filler (Oui ?)", "default": true }
+      ]
+    }
+  ],
+  "max_blocks": 50,
+  "presets": [
+    {
+      "name": "Tableau comparatif automatique",
+      "category": "Testimonials",
+      "blocks": [
+        { "type": "price",
+          "settings": { "label": "Prix", "left_text": "Dès 39,90€", "right_text": "Dès 350€" } },
+        { "type": "feature",
+          "settings": { "label": "Résultats durables", "left_yes": true, "right_yes": true } },
+        { "type": "feature",
+          "settings": { "label": "Aspect naturel", "left_yes": true, "right_yes": false } },
+        { "type": "feature",
+          "settings": { "label": "Sans douleur", "left_yes": true, "right_yes": false } },
+        { "type": "feature",
+          "settings": { "label": "Satisfait ou remboursé", "left_yes": true, "right_yes": false } }
+      ]
+    }
+  ]
+}
+{% endschema %}
