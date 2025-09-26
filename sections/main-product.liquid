@@ -66,15 +66,9 @@
       <product-quick-add form="{{ product_form_id }}" class="product-quick-add">
         {%- assign button_label = 'product.general.add_to_cart_button' | t -%}
 
-<buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" class="sm:hidden">
-  <a 
-    href="/cart/add?id={{ product.selected_or_first_available_variant.id }}&quantity=1&checkout"
-    class="btn btn--full"
-    style="background: {{ buy_buttons_block.settings.atc_button_background }}; color: {{ buy_buttons_block.settings.atc_button_text_color }};"
-  >
-    Acheter maintenant
-  </a>
-</buy-buttons>
+        <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" class="sm:hidden">
+          {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true, stretch: true, size: 'lg' -%}
+        </buy-buttons>
 
         {%- assign image = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
 
