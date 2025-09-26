@@ -17,8 +17,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/page_tete.png",
-        "mobile_image": "shopify://shop_images/page_tete.png",
+        "image": "shopify://shop_images/haut_site_ed1fec0e-ba60-4bce-86bc-c196e750ee94.png",
+        "mobile_image": "shopify://shop_images/haut_site_ed1fec0e-ba60-4bce-86bc-c196e750ee94.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#f0f0f0",
@@ -146,8 +146,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Copie_de_Template_section_benefice.png",
-        "mobile_image": "shopify://shop_images/Copie_de_Template_section_benefice.png",
+        "image": "shopify://shop_images/benef_prod.png",
+        "mobile_image": "shopify://shop_images/benef_prod.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -344,7 +344,7 @@
         "liquid_HiDGih": {
           "type": "liquid",
           "settings": {
-            "liquid": "{%- comment -%} Badge \"4 Rituel Intensif restants\" + prix par sérum — version responsive {%- endcomment -%}\n<div class=\"z-stock-hint\">\n  <span class=\"z-stock-dot\" aria-hidden=\"true\"></span>\n  <span class=\"z-stock-text\">4 \"Rituel Intensif\" restants</span>\n</div>\n<p class=\"z-price-hint\"> Soit seulement <strong>13,95€</strong> le sérum</p>\n\n<style>\n  .z-stock-hint{\n    display:inline-flex;\n    align-items:center;\n    gap:10px;\n    background:transparent;\n    border:none;\n    padding:0;\n    font-size:15px;\n    margin-bottom:8px;\n    animation: shake 4s ease-in-out infinite;\n  }\n  .z-stock-dot{\n    width:12px;\n    height:12px;\n    border-radius:50%;\n    background:#E7434D;\n    box-shadow:0 0 0 0 rgba(231,67,77,.7);\n    animation:zDotPulse 1.2s ease-in-out infinite;\n  }\n  @keyframes zDotPulse{\n    0%   { transform:scale(1); box-shadow:0 0 0 0 rgba(231,67,77,.7); filter: brightness(1);}\n    50%  { transform:scale(1.3); box-shadow:0 0 0 12px rgba(231,67,77,0); filter: brightness(1.2);}\n    100% { transform:scale(1); box-shadow:0 0 0 0 rgba(231,67,77,0); filter: brightness(1);}\n  }\n  @keyframes shake {\n    0%, 100% { transform: translateX(0); }\n    2%, 4%, 6% { transform: translateX(-3px); }\n    3%, 5%, 7% { transform: translateX(3px); }\n  }\n  .z-stock-text{\n    font-weight:800;\n    color:#2F2F2F;\n    text-transform: uppercase;\n    letter-spacing: 0.5px;\n    font-size: 14px;\n  }\n  .z-price-hint{\n    margin:0 0 12px 22px; \n    font-size:14px;\n    color:#444;\n    font-weight:500;\n  }\n  .z-price-hint strong{\n    color:#E7434D;\n    font-weight:700;\n  }\n\n  /* ✅ Responsive mobile */\n  @media (max-width: 600px) {\n    .z-stock-hint{\n      justify-content:center;\n      gap:6px;\n      font-size:13px;\n      margin-bottom:6px;\n    }\n    .z-stock-dot{\n      width:10px;\n      height:10px;\n    }\n    .z-stock-text{\n      font-size:12px;\n      letter-spacing:0.3px;\n    }\n    .z-price-hint{\n      margin:0 auto 10px auto;\n      text-align:center;\n      font-size:12px;\n    }\n  }\n</style>"
+            "liquid": "{%- comment -%} Badge \"4 Rituel Intensif restants\" + prix par sérum — version responsive {%- endcomment -%} <div class=\"z-stock-hint\"> <span class=\"z-stock-dot\" aria-hidden=\"true\"></span> <span class=\"z-stock-text\">3 \"Rituel Intensif\" restants à ce prix.</span> </div> <p class=\"z-price-hint\"> Soit seulement <strong>13,95€</strong> le sérum</p>  <style> .z-stock-hint{ display:inline-flex; align-items:center; gap:10px; background:transparent; border:none; padding:0; font-size:15px; margin-bottom:8px; animation: shake 4s ease-in-out infinite; } .z-stock-dot{ width:12px; height:12px; border-radius:50%; background:#E7434D; box-shadow:0 0 0 0 rgba(231,67,77,.7); animation:zDotPulse 1.2s ease-in-out infinite; } @keyframes zDotPulse{ 0% { transform:scale(1); box-shadow:0 0 0 0 rgba(231,67,77,.7); filter: brightness(1);} 50% { transform:scale(1.3); box-shadow:0 0 0 12px rgba(231,67,77,0); filter: brightness(1.2);} 100% { transform:scale(1); box-shadow:0 0 0 0 rgba(231,67,77,0); filter: brightness(1);} } @keyframes shake { 0%, 100% { transform: translateX(0); } 2%, 4%, 6% { transform: translateX(-3px); } 3%, 5%, 7% { transform: translateX(3px); } } .z-stock-text{ font-weight:800; color:#2F2F2F; text-transform: uppercase; letter-spacing: 0.5px; font-size: 14px; } .z-price-hint{ margin:0 0 12px 22px;  font-size:14px; color:#444; font-weight:500; } .z-price-hint strong{ color:#E7434D; font-weight:700; }  /* ✅ Responsive mobile */ @media (max-width: 600px) { .z-stock-hint{ justify-content:center; gap:6px; font-size:13px; margin-bottom:6px; } .z-stock-dot{ width:10px; height:10px; } .z-stock-text{ font-size:12px; letter-spacing:0.3px; } .z-price-hint{ margin:0 auto 10px auto; text-align:center; font-size:12px; } } </style>"
           }
         },
         "liquid_k4mmhy": {
@@ -768,6 +768,7 @@
     },
     "custom_liquid_P9QQhd": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
