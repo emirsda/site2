@@ -214,11 +214,11 @@
         "item_LY8UGy": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/avant_apres.jpg",
+            "image": "shopify://shop_images/1.webp",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Sarah M.</strong></p><p>4 semaines et mes rides ont fondu. J'ai jeté mes 4 autres crèmes.</p>",
+            "content": "<p><strong>Sarah M.</strong></p><p><em>\"En seulement trois applications, j’ai l’impression d’avoir retrouvé la peau de mes 30 ans ! Mon teint est lumineux, ma peau est plus lisse et plus ferme. Je suis ravie\"</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -227,11 +227,11 @@
         "item_gfX6kg": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/image1_2000x1414_a8c4d088-7c76-41a8-9c65-fde9f37c21e2.jpg",
+            "image": "shopify://shop_images/2.webp",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Rosana S.  </strong></p><p>Ce produit est juste magique, passé d'un teint très fatigué pour venir a cette peau la. J'en suis tellement contente.</p>",
+            "content": "<p><strong>Juliette S.  </strong></p><p><em>\"Je ne supportais plus mes rides du front et pensais à un traitement en clinique, puis j’ai essayé</em><em><strong> Kyreo.</strong></em><em> Je suis tellement heureuse !\"</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -240,11 +240,11 @@
         "item_39JEcB": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/avant.jpg",
+            "image": "shopify://shop_images/3.webp",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Alicia R.</strong></p><p>Ma fille m'a demandé si j'avais fait du botox. Non, juste ce sérum.</p>",
+            "content": "<p><strong>Alicia R.</strong></p><p><em>\"Je pensais que le laser était ma seule solution, mais grâce au sérum, ma peau est enfin uniforme et éclatante ! Et en plus, le traitement est indolore !\"</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -253,11 +253,11 @@
         "item_3aHNRK": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/avant_apres_3.jpg",
+            "image": "shopify://shop_images/4.webp",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Layna D.</strong></p><p>Enfin un produit qui tient ses promesses. Ma table de nuit me dit merci.</p>",
+            "content": "<p><strong>Layna D.</strong></p><p><em>\"C’est incroyable ! Je n’aurais jamais cru que mes pattes d’oie disparaîtraient aussi rapidement et que l’application serait si simple\"</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -266,11 +266,37 @@
         "item_KUbdhB": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/image2_2000x1414_a0d02463-28ef-4f51-bd92-45305b3998bc.jpg",
+            "image": "shopify://shop_images/5.webp",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<p><strong>Julianna M.</strong></p><p>Ma peau? La voila lisse, sans rides et sans taches. Qui l'aurai crue? Merci Kyreo</p>",
+            "content": "<p><strong>Julianna M.</strong></p><p><em>\"Dès la première application, j’ai remarqué que les ridules autour de mes lèvres commençaient à s’estomper. Après environ un mois, mes lèvres étaient plus lisses et repulpées.\"</em></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_HU8pfM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/6.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Marie F.</strong></p><p><em>\"À 71 ans, je pensais qu’il n’y avait plus rien à faire pour les rides sur mon décolleté. Mais ce produit a fait des merveilles\"</em></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_h6jbE4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/7.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p><strong>Ange Q.</strong></p><p><em>\"Depuis que j'utilise ce produit, ma peau a été transformée. Les résultats sont visibles rapidement, et je ne peux plus m’en passer. C’est devenu un indispensable dans ma routine beauté\"</em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -282,7 +308,9 @@
         "item_gfX6kg",
         "item_39JEcB",
         "item_3aHNRK",
-        "item_KUbdhB"
+        "item_KUbdhB",
+        "item_HU8pfM",
+        "item_h6jbE4"
       ],
       "name": "Multi-column",
       "settings": {
