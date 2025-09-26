@@ -530,7 +530,7 @@
         "item_RJp9Tx": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/acidee.png",
+            "image": "shopify://shop_images/acidee-removebg-preview.png",
             "column_size": "3",
             "title": "Acide hyaluronique",
             "heading_tag": "h3",
@@ -543,7 +543,7 @@
         "item_VBirVd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/aloe_vera.png",
+            "image": "shopify://shop_images/aloe_vera_-removebg-preview.png",
             "column_size": "3",
             "title": "Aloe Barbadensis",
             "heading_tag": "h3",
@@ -556,7 +556,7 @@
         "item_9PzWK8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/champignon.png",
+            "image": "shopify://shop_images/champignon-removebg-preview.png",
             "column_size": "3",
             "title": "Champignon Tremella",
             "heading_tag": "h3",
@@ -569,7 +569,7 @@
         "item_ckx6Np": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/portucula.png",
+            "image": "shopify://shop_images/portucula-removebg-preview.png",
             "column_size": "3",
             "title": "Portulaca Oleracea",
             "heading_tag": "h3",
