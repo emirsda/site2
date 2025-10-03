@@ -14,6 +14,7 @@
       "blocks": {
         "liquid_ajkqQ6": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "{% comment %}\n  Bouton \"Acheter maintenant\" style Shopify natif pour Bundle\n  Remplacez VARIANT_ID par l'ID de variante de votre bundle\n{% endcomment %}\n\n{% assign bundle_variant_id = '9813557576022' %}\n\n<style>\n  .bundle-buy-now-form {\n    text-align: left;\n  }\n  \n  .bundle-buy-now-form .shopify-payment-button__button {\n    background-color: #a0522d !important;\n    background-image: none !important;\n  }\n  \n  .bundle-buy-now-form .shopify-payment-button__button:hover {\n    background-color: #8b4513 !important;\n  }\n</style>\n\n<form action=\"/cart/add\" method=\"post\" class=\"bundle-buy-now-form\">\n  <input type=\"hidden\" name=\"id\" value=\"{{ bundle_variant_id }}\">\n  <input type=\"hidden\" name=\"quantity\" value=\"1\">\n  \n  <button \n    type=\"submit\" \n    name=\"add\"\n    class=\"shopify-payment-button__button shopify-payment-button__button--unbranded\"\n    aria-label=\"Acheter maintenant\">\n    <span>Acheter maintenant</span>\n  </button>\n</form>\n\n<script>\n  document.querySelector('.bundle-buy-now-form').addEventListener('submit', function(e) {\n    e.preventDefault();\n    var form = this;\n    var submitButton = form.querySelector('button[type=\"submit\"]');\n    \n    // Désactiver le bouton pendant le traitement\n    submitButton.disabled = true;\n    submitButton.style.opacity = '0.6';\n    \n    fetch('/cart/add.js', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json',\n      },\n      body: JSON.stringify({\n        id: '{{ bundle_variant_id }}',\n        quantity: 1\n      })\n    })\n    .then(response => response.json())\n    .then(data => {\n      // Rediriger vers le checkout comme le bouton natif Shopify\n      window.location.href = '/checkout';\n    })\n    .catch(error => {\n      console.error('Erreur:', error);\n      alert('Une erreur est survenue. Veuillez réessayer.');\n      submitButton.disabled = false;\n      submitButton.style.opacity = '1';\n    });\n  });\n</script>"
           }
@@ -330,7 +331,7 @@
         "liquid_DYq47Q": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"tp-rating\" aria-label=\"Note moyenne : 4.7 sur 5 étoiles\">\n  <img \n    src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg\" \n    alt=\"Note 4.7 sur 5 étoiles\" \n    class=\"tp-stars-img\"\n  />\n  <span class=\"rating-text\"><strong>\n    4.8 - <span>479</span> </strong> avis </span>\n</div>\n<style>\n.tp-rating {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n} \n.tp-stars-img {\n  height: 18px;\n  width: auto;\n  display: inline-block;\n}\n\n.rating-text {\n  font-size: 0.75rem;\n  color: #666;\n}\n\n</style>"
+            "liquid": "<div class=\"tp-rating\" aria-label=\"Note moyenne : 4.7 sur 5 étoiles\">\n  <img \n    src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg\" \n    alt=\"Note 4.7 sur 5 étoiles\" \n    class=\"tp-stars-img\"\n  />\n  <span class=\"rating-text\"><strong>\n    4.8 - <span>779</span> </strong> avis </span>\n</div>\n<style>\n.tp-rating {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n} \n.tp-stars-img {\n  height: 18px;\n  width: auto;\n  display: inline-block;\n}\n\n.rating-text {\n  font-size: 0.75rem;\n  color: #666;\n}\n\n</style>"
           }
         },
         "title_Bk33Rj": {
@@ -401,6 +402,7 @@
         },
         "liquid_dHkCmC": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<!-- Logos de paiement (sélection + alignement gauche) -->\n{% assign wanted = \"visa,master,american_express,apple_pay,cartes_bancaires,paypal,shop_pay\" | split: \",\" %}\n<div class=\"paiement-logos\" aria-label=\"Moyens de paiement acceptés\">\n  {% for t in wanted %}\n    {{ t | payment_type_svg_tag }}\n  {% endfor %}\n</div>\n\n<style>\n.paiement-logos {\n  display: flex;\n  flex-wrap: wrap; /* passe à la ligne si trop serré */\n  justify-content: flex-start; /* 🔹 alignement à gauche */\n  align-items: center;\n  gap: 10px;\n  margin-top: 15px;\n}\n.paiement-logos svg {\n  height: 24px; /* taille icônes */\n  width: auto;\n  opacity: 0.9;\n  transition: opacity 0.3s;\n}\n.paiement-logos svg:hover {\n  opacity: 1;\n}\n@media (max-width: 480px) {\n  .paiement-logos svg {\n    height: 20px; /* taille réduite sur mobile */\n  }\n}\n</style>"
           }
