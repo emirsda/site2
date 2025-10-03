@@ -416,6 +416,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_dHkCmC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Mini liste logos de paiement -->\n<div class=\"paiement-logos\">\n  <img src=\"LIEN_DE_TON_LOGO_AMEX\" alt=\"American Express\">\n  <img src=\"LIEN_DE_TON_LOGO_APPLEPAY\" alt=\"Apple Pay\">\n  <img src=\"LIEN_DE_TON_LOGO_CB\" alt=\"Carte Bancaire\">\n  <img src=\"LIEN_DE_TON_LOGO_MASTERCARD\" alt=\"Mastercard\">\n  <img src=\"LIEN_DE_TON_LOGO_PAYPAL\" alt=\"PayPal\">\n  <img src=\"LIEN_DE_TON_LOGO_SHOPPAY\" alt=\"Shop Pay\">\n  <img src=\"LIEN_DE_TON_LOGO_VISA\" alt=\"Visa\">\n</div>\n\n<style>\n.paiement-logos {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px; /* espace entre logos */\n  margin-top: 15px; /* espace au-dessus du bouton */\n}\n.paiement-logos img {\n  height: 22px; /* taille des logos */\n  object-fit: contain;\n  opacity: 0.8;\n  transition: opacity 0.3s;\n}\n.paiement-logos img:hover {\n  opacity: 1;\n}\n</style>"
+          }
+        },
         "liquid_khiYr6": {
           "type": "liquid",
           "settings": {
@@ -440,6 +446,7 @@
         "liquid_6Y7bBU",
         "liquid_aBrLDx",
         "buy_buttons_Q6DaDT",
+        "liquid_dHkCmC",
         "liquid_khiYr6",
         "pickup_availability_hfnTka"
       ],
