@@ -12,20 +12,15 @@
     "image_with_text_overlay_ezUjx3": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "button_xWpxqq": {
-          "type": "button",
+        "liquid_ajkqQ6": {
+          "type": "liquid",
           "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
+            "liquid": "{% comment %}\n  Bouton \"Acheter maintenant\" style Shopify natif pour Bundle\n  Remplacez VARIANT_ID par l'ID de variante de votre bundle\n{% endcomment %}\n\n{% assign bundle_variant_id = 'VARIANT_ID' %}\n\n<form action=\"/cart/add\" method=\"post\" class=\"bundle-buy-now-form\">\n  <input type=\"hidden\" name=\"id\" value=\"{{ bundle_variant_id }}\">\n  <input type=\"hidden\" name=\"quantity\" value=\"1\">\n  \n  <button \n    type=\"submit\" \n    name=\"add\"\n    class=\"shopify-payment-button__button shopify-payment-button__button--unbranded\"\n    aria-label=\"Acheter maintenant\">\n    <span>Acheter maintenant</span>\n  </button>\n</form>\n\n<script>\n  document.querySelector('.bundle-buy-now-form').addEventListener('submit', function(e) {\n    e.preventDefault();\n    var form = this;\n    var submitButton = form.querySelector('button[type=\"submit\"]');\n    \n    // Désactiver le bouton pendant le traitement\n    submitButton.disabled = true;\n    submitButton.style.opacity = '0.6';\n    \n    fetch('/cart/add.js', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json',\n      },\n      body: JSON.stringify({\n        id: '{{ bundle_variant_id }}',\n        quantity: 1\n      })\n    })\n    .then(response => response.json())\n    .then(data => {\n      // Rediriger vers le checkout comme le bouton natif Shopify\n      window.location.href = '/checkout';\n    })\n    .catch(error => {\n      console.error('Erreur:', error);\n      alert('Une erreur est survenue. Veuillez réessayer.');\n      submitButton.disabled = false;\n      submitButton.style.opacity = '1';\n    });\n  });\n</script>"
           }
         }
       },
       "block_order": [
-        "button_xWpxqq"
+        "liquid_ajkqQ6"
       ],
       "custom_css": [],
       "settings": {
