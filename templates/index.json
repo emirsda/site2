@@ -215,7 +215,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"kyreo-testimonials-title\">\n  <h2 class=\"testimonials-heading\">Leurs résultats parlent d'eux-mêmes</h2>\n</div>\n\n<style>\n.kyreo-testimonials-title {\n  text-align: center;\n  margin: 50px 0 30px 0;\n  padding: 0 20px;\n}\n\n.testimonials-heading {\n  font-family: 'Montserrat', sans-serif;\n  font-size: 32px;\n  font-weight: 700;\n  color: #2F2F2F;\n  line-height: 1.2;\n  margin: 0;\n  letter-spacing: -0.5px;\n}\n\n/* Responsive */\n@media (max-width: 768px) {\n  .testimonials-heading {\n    font-size: 26px;\n    line-height: 1.3;\n  }\n  \n  .kyreo-testimonials-title {\n    margin: 40px 0 25px 0;\n    padding: 0 15px;\n  }\n}\n\n@media (max-width: 480px) {\n  .testimonials-heading {\n    font-size: 22px;\n  }\n  \n  .kyreo-testimonials-title {\n    margin: 30px 0 20px 0;\n  }\n}\n</style>",
+        "liquid": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -467,6 +467,19 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_P9QQhd": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<h2 class=\"kyreo-title\">\n  <span class=\"highlight\">Validé par les experts</span> qui savent.<br>\n  <span class=\"subtitle\">Leur réputation en dépend.<br>Ils ont choisi <strong>KYREO</strong>.</span>\n</h2>\n\n<div class=\"kyreo-image\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0947/4074/2486/files/produit_9.png?v=1758476002\" \n       alt=\"Produit KYREO recommandé par des médecins\" />\n</div>\n\n<style>\n.kyreo-title {\n  text-align: center;\n  font-size: clamp(1.4rem, 1.2rem + 1vw, 2.2rem);\n  font-weight: 800;\n  line-height: 1.3;\n  color: #2F2F2F;\n  margin: 2rem auto 1rem;\n  max-width: 900px;\n  font-family: 'Inter', -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n}\n.kyreo-title .highlight {\n  color: #C89B0E;\n}\n.kyreo-title .subtitle {\n  font-size: 1rem;\n  font-weight: 500;\n  color: #555;\n  display: block;\n  margin-top: 0.5rem;\n}\n\n.kyreo-image {\n  text-align: center;\n  margin-top: 1.5rem; /* espace entre le titre et l’image */\n}\n.kyreo-image img {\n  max-width: 320px; /* ajuste selon ton visuel */\n  width: 100%;\n  height: auto;\n  border-radius: 8px; /* tu peux enlever ou modifier selon le style */\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -736,19 +749,6 @@
         "accordion_text_color": ""
       }
     },
-    "custom_liquid_P9QQhd": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<h2 class=\"kyreo-title\">\n  <span class=\"highlight\">Validé par les experts</span> qui savent.<br>\n  <span class=\"subtitle\">Leur réputation en dépend.<br>Ils ont choisi <strong>KYREO</strong>.</span>\n</h2>\n\n<div class=\"kyreo-image\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0947/4074/2486/files/produit_9.png?v=1758476002\" \n       alt=\"Produit KYREO recommandé par des médecins\" />\n</div>\n\n<style>\n.kyreo-title {\n  text-align: center;\n  font-size: clamp(1.4rem, 1.2rem + 1vw, 2.2rem);\n  font-weight: 800;\n  line-height: 1.3;\n  color: #2F2F2F;\n  margin: 2rem auto 1rem;\n  max-width: 900px;\n  font-family: 'Inter', -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n}\n.kyreo-title .highlight {\n  color: #C89B0E;\n}\n.kyreo-title .subtitle {\n  font-size: 1rem;\n  font-weight: 500;\n  color: #555;\n  display: block;\n  margin-top: 0.5rem;\n}\n\n.kyreo-image {\n  text-align: center;\n  margin-top: 1.5rem; /* espace entre le titre et l’image */\n}\n.kyreo-image img {\n  max-width: 320px; /* ajuste selon ton visuel */\n  width: 100%;\n  height: auto;\n  border-radius: 8px; /* tu peux enlever ou modifier selon le style */\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "contact_4eMBiX": {
       "type": "contact",
       "name": "Contact form",
@@ -813,10 +813,10 @@
     "featured_product_nyKfgC",
     "1754715508d43cdc4d",
     "tabs_cYdcCh",
+    "custom_liquid_P9QQhd",
     "custom_liquid_gfVMqf",
     "multi_column_cVLHjq",
     "faq",
-    "custom_liquid_P9QQhd",
     "contact_4eMBiX",
     "17577721185317e402"
   ]
